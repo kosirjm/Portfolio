@@ -1,0 +1,24 @@
+House of Cats
+2
+8 13 19
+Jaguar
+2
+14.6 18.8
+Ocelot
+2
+7.2 7.7
+Show me the Monkey House
+1
+8 13 19
+Gibbon
+3
+10 8 3.5
+Reptile House
+2
+3
+Snake
+1
+78.0
+Lizard
+2
+14.5 17.2
