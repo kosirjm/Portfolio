@@ -1,4 +1,7 @@
-	This section shows the knowledge of basic Assembly.  With this, learning basic assembly instructions, how to write and assembly program, and how a high-level language is translated into assembly was learned.  Each file was written in MIPS and used the MARS compiler.  Below is a quick video demonstrates of each program and all programs can be downloaded from below.
+This section shows the knowledge of basic Assembly.  With this, learning basic assembly instructions, how to write and assembly 
+program, and how a high-level language is translated into assembly was learned.  Each file was written in MIPS and used the MARS
+compiler. Below is a quick video demonstrates of each program and all programs can be downloaded from below.
+	
 Hello World
 This is a simple hello world program in assembly. 	
 Multiples 
