@@ -1,4 +1,5 @@
 #DESCRIPTION
+======================
 
            This project was a year long project which consisted of a five person team.  In this real world project we worked directly with the University of Cincinatti Medical Center, to solve a current day issue in the medical field, effecient patient care.  In the medical field millions of dollars are lost annually do to poor scheduling of medical rooms, specifically surgical rooms.  This causes issues with the processing, caring of, and discharge of patients.  The help mitigate this issue hospitals tend to expand their facilities, which ultimately, creates a larger bottle neck.  To prevent this we suggested a better scheduling system which is much more effecient.  Using research we found from Harvard University we created an optimization program for hospital scheduling.  
 
