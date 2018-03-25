@@ -30,7 +30,7 @@ disp('Start Sim');
 disp(['Sime will take about ' arrivalMatrix(length(ArrivalMatrix))]);
 
 for i = 1:length(arrivalMatrix)
-    packet(1,1) = arrivalMatrix(i);
+    packet(1,1) = arrivalMatrix(
     switch state
         
         case 0 %Empty state
@@ -40,18 +40,15 @@ for i = 1:length(arrivalMatrix)
             
             choice = randi(10)
             if choice <= 5
-             queue(packet, q, server1Queue);
-            else
-             queue(packet, q, server2Queue);
-            end
-           
+                server1Queue(length(server1Queue) + 1) = packet
+            % Choose server/ queueu
+            
+            % If not queue
         case 2  % Process/Depature state
            
             % Put new packet in system 
             
-            % If queueu == 1
-                % set to zero state
-            %choose next packet
+            % If queueu > 0 choose next packet
                 % Reduce queue
                 
             % Else set at zero state

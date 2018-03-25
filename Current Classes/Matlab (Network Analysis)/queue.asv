@@ -1,4 +1,4 @@
-function [serverQueue] = queue(packet, queueSize, serverQueue)
+function [serve] = queue(server, queueSize, serverQueue)
 %QUEUE Summary of this function goes here
 %   Detailed explanation goes here
 
@@ -6,6 +6,6 @@ if length(serverQueue) > queueSize
 % Block
 else
 packet = 
-serverQueue(length(serverQueue) + 1) = packet
+server1Queue(length(server1Queue) + 1) = packet
 end
 
