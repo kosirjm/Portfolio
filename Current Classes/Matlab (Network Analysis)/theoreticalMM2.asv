@@ -61,20 +61,7 @@ U = (L-Lq)/s;
 pb = 1-(q/ro);
 
 Wq1 = Wq * sp;
-Wq2 = Wq * (1-sp);
-
-W1 = W * sp;
-W2 = W * (1-sp);
-
-Lq1 = Lq * sp;
-Lq2 = Lq * (1-sp);
-
-L1 = L * sp;
-L2 = L * (1-sp);
-
-pb1 = pb * sp;
-pb2 = pb * (1-sp);
-
-output = [Wq1 Wq2 Wq, W1, W2 W, Lq1, Lq2 Lq, L1, L2, L, U, P0, ro, pb1 pb2 pb];
+Wq2 = Wq * 
+output = [Wq, W, Lq, L, U, P0, ro, pb];
 end
 

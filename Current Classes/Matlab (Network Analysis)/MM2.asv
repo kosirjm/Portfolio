@@ -7,10 +7,11 @@ ECE 461
 
 % Variables
 clear all
-speed = 1000;
+speed = 10000;
 lambda = 8 *speed ;
 mu = 5 * speed;
-numPackets = 1000000;
+ro = lambda/mu;
+numPackets = 10000000;
 numServers = 2;
 serverProb = 5;
 queueSize = 5;
@@ -19,7 +20,6 @@ timerVal = tic;
 interval = 1/speed;
 ticker = interval;
 over = false;
-test = 1;
 
 blocked = zeros(1:numServers);
 serversState = zeros(1:numServers);
@@ -28,6 +28,10 @@ state = [6 0]; % [state serverNumber]
 queue = zeros(numServers,queueSize);
 packet = zeros(numPackets,4); % [Arrival processTime departure server]
 processing = [0 0];
+totalInQueue1 = 0;
+totalInQueue2 = 0;
+processing1 = 0;
+processing2 = 0;
 
 arrival = -log(rand)/lambda;
 packet(1) = arrival;
@@ -154,17 +158,68 @@ while over ~= true
     end
     
     % Some simple data collection
-        
-        totalInQueue1 = queueCurrentSize(1) + totalInQueue1
+    if((toc(timerVal) >= ticker) && i >= 1000)
+        ticker = interval + ticker;
+        totalInQueue1 = queueCurrentSize(1) + totalInQueue1;
         totalInQueue2 = queueCurrentSize(2) + totalInQueue2;
-        processing1 = if(
+        if (processing(1) ~= 0)
+            processing1 = processing1 + 1;
+        end
+        if(processing(1) ~= 0)
+            processing2 = processing2 + 1;
+        end
+    end
 end
+
 disp(['Actual Time: ', num2str(toc(timerVal)), ' Estimated Time: ', simEstimate])
 
-theoretical = theoreticalMM2((lambda/speed), (mu/speed), queueSize, numServers)'
-aveTimeInSystem = (sum(packet(dataStart:numPackets,3) - packet(dataStart:numPackets,1))/numPackets) * speed;
-aveTimeInQueue = (sum(packet(dataStart:numPackets,2) - packet(dataStart:numPackets,1))/numPackets) * speed;
-aveTimeProcessing = (sum(packet(dataStart:numPackets,3) - packet(dataStart:numPackets,2))/numPackets) * speed;
-blockingProbabilityTotal = sum(blocked)/numPackets;
-blockingProbability1 = blocked(1)/sum(packet(dataStart:numPackets,4)==1);
-blockingProbability2 = blocked(1)/sum(packet(dataStart:numPackets,4)==2);
+packetsTo1 = sum(packet(dataStart:numPackets,4)==1);
+packetsTo2 = sum(packet(dataStart:numPackets,4)==2);
+
+for i = dataStart:numPackets
+    if packet(i,4) == 1
+    aveTimeInQueue1 = (packet(dataStart:numPackets,2) - packet(dataStart:numPackets,1)) + aveTimeInQueue1;
+     aveTimeProcessing1 = (packet(dataStart:numPackets,3) - packet(dataStart:numPackets,2)) + aveTimeProcessing1;
+     aveTimeInSystem1 = (packet(dataStart:numPackets,3) - packet(dataStart:numPackets,2)) + aveTimeInSystem1;
+    elseif packet(i,4) == 2
+   aveTimeInQueue2 = (packet(dataStart:numPackets,2) - packet(dataStart:numPackets,1)) + aveTimeInQueue2;
+     aveTimeProcessing2 = (packet(dataStart:numPackets,3) - packet(dataStart:numPackets,2)) + aveTimeProcessing2;
+     aveTimeInSystem2 = (packet(dataStart:numPackets,3) - packet(dataStart:numPackets,2)) + aveTimeInSystem2;
+    end
+end
+
+
+samples = (toc(timerVal)-packet(dataStart,1))/interval;
+theoretical = theoreticalMM2((lambda/speed), (mu/speed), queueSize, numServers);
+
+aveTimeInQueue1 = aveTimeInQueue1 / packetsTo1;
+aveTimeInQueue2 = aveTimeInQueue2 / packetsTo2;
+aveTimeInSystem1 = AveTimeInSystem1/packetsTo1;
+aveTimeInSystem2 = AveTimeInSystem2/packetsTo2;
+aveTimeProcessing1 = aveTimeProcessing1 / packetsTo1;
+aveTimeProcessing2 = aveTimeProcessing2 / packetsTo2;
+
+
+aveTimeInSystem = aveTimeInSystem1 + aveTimeInSystem2;
+aveTimeInQueue = aveTimeinQueue1 + aveTimeInQueue2;
+aveTimeProcessing = aveTimeProcessing1 + aveTimeProcessing2;
+
+blockingProbabilityTotal = sum(blocked)/(numPackets-dataStart)
+blockingProbability1 = blocked(1)/sum(packet(dataStart:numPackets,4)==1)
+blockingProbability2 = blocked(2)/sum(packet(dataStart:numPackets,4)==2)
+
+aveNumInQueue1 = (totalInQueue1 / samples)
+aveNumInQueue2 =  (totalInQueue2 / samples)
+aveNumInQueue = (aveNumInQueue1 + aveNumInQueue2)
+
+aveInSystem1 = processing1/samples
+aveInSystem2 = processing2/samples
+aveNumInSystem = (aveInSystem1 + aveInSystem2)
+
+aveNumTotal1 = aveNumInQueue + aveNumInSystem1
+aveNumTotal = ((aveNumInQueue + aveNumInSystem))
+
+utilization = (aveNumTotal - aveNumInQueue)/numServers
+
+theoretical
+simulated = [aveTimeInQueue1 aveTimeInQueue2 aveTimeInQueue aveTimeInSystem1 aveTimeInSystem2 aveTimeInSystem aveNumInQueue1 aveNumInQueue2 aveNumInQueue aveNumTotal1 aveNumTotal2 aveNumTotal utilization 0 ro blockingProbabilityTotal]
