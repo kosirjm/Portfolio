@@ -6,19 +6,20 @@ ECE 461
 %}
 
 % Variables
-clear all vars
-lambda = 8;
-mu = 5;
-speed = 1;
-numPackets = 10000;
+clear all
+speed = 1000;
+lambda = 8 *speed ;
+mu = 5 * speed;
+numPackets = 1000000;
 numServers = 2;
 serverProb = 5;
-queueSize = 20;
-
+queueSize = 5;
+dataStart = 1000;
 timerVal = tic;
 interval = 1/speed;
 ticker = interval;
 over = false;
+test = 1;
 
 blocked = zeros(1:numServers);
 serversState = zeros(1:numServers);
@@ -27,6 +28,10 @@ state = [6 0]; % [state serverNumber]
 queue = zeros(numServers,queueSize);
 packet = zeros(numPackets,4); % [Arrival processTime departure server]
 processing = [0 0];
+totalInQueue1 = 0;
+totalInQueue2 = 0;
+processing1 = 0;
+processing2 = 0;
 
 arrival = -log(rand)/lambda;
 packet(1) = arrival;
@@ -84,7 +89,7 @@ while over ~= true
     switch state(1)
         
         case 1 %Arrival
-            processTime = exprnd(mu);
+            processTime = exprnd(1/mu);
             % If server empty
             if serversState(state(2)) == 0
                 packet(i,2) = toc(timerVal);
@@ -96,7 +101,11 @@ while over ~= true
             else
                 % If queue is full
                 if queueCurrentSize(state(2)) >= queueSize
-                    blocked(state(2)) = blocked(state(2)) + 1;
+                    
+                    if dataStart <= numPackets
+                        blocked(state(2)) = blocked(state(2)) + 1;
+                    end
+                    
                     packet(i) = 0;
                     
                     % If Queue has room
@@ -147,14 +156,30 @@ while over ~= true
         otherwise
             
     end
+    
+    % Some simple data collection
+    if((toc(timerVal) >= ticker) && i >= 1000)
+        ticker = interval + ticker;
+        totalInQueue1 = queueCurrentSize(1) + totalInQueue1;
+        totalInQueue2 = queueCurrentSize(2) + totalInQueue2;
+        if (processing(1) ~= 0)
+            processing1 = processing1 + 1;
+        end
+        if(processing(1) ~= 0)
+            processing2 = processing2 + 1;
+        end
+    end
 end
 disp(['Actual Time: ', num2str(toc(timerVal)), ' Estimated Time: ', simEstimate])
 
-theoretical = theoreticalMM2(lambda, mu, queueSize, numServers)'
-
-aveTimeInSystem = sum(packet(:,3) - packet(:,1))/numPackets;
-aveTimeInQueue = sum(packet(:,2) - packet(:,1))/numPackets;
-aveTimeProcessing = sum(packet(:,3) - packet(:,2))/numPackets;
+theoretical = theoreticalMM2((lambda/speed), (mu/speed), queueSize, numServers)'
+aveTimeInSystem = (sum(packet(dataStart:numPackets,3) - packet(dataStart:numPackets,1))/numPackets) * speed;
+aveTimeInQueue = (sum(packet(dataStart:numPackets,2) - packet(dataStart:numPackets,1))/numPackets) * speed;
+aveTimeProcessing = (sum(packet(dataStart:numPackets,3) - packet(dataStart:numPackets,2))/numPackets) * speed;
 blockingProbabilityTotal = sum(blocked)/numPackets;
-blockingProbability1 = blocked(1)/sum(packet(:,4)==1);
-blockingProbability2 = blocked(1)/sum(packet(:,4)==2);
+blockingProbability1 = blocked(1)/sum(packet(dataStart:numPackets,4)==1);
+blockingProbability2 = blocked(1)/sum(packet(dataStart:numPackets,4)==2);
+aveNumInQueue1 = (totalInQueue1 / samples);
+aveNumInQueue2 =  (totalInQueue2 / samples);
+aveNumberTotal = ((totalInQueue1 + totalInQueue2 + totalInSystem)/samples);
+
