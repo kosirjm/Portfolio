@@ -41,17 +41,17 @@ for i = s+1:(q-1)
 end
 
 % Average time spent in queue
-Wq = (1/(s*mu*(1-Pn(20))))*waitSum;
+Wq = (1/(s*mu*(1-Pn(q))))* waitSum;
 
 % Average time spent in system
 W = Wq + 1/mu;
 
-% Average time spent in queue
+% Average number in queue
 psi = ro/s;
 Lq = ((P0*ro^s*(psi))/(factorial(s)*(1-(psi))^2))*(1-((psi)^(q-s))*(1-(psi)));
 
 % Average number in entire system
-L = (Lq+((lambda*(1-Pn(20)))/mu));
+L = (Lq+((lambda*(1-Pn(q)))/mu));
 
 % Utilization Rates
 U = (L-Lq)/s;
