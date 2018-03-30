@@ -1,4 +1,4 @@
-function [output, Pn] = theoreticalMM2(lambda, mu, queue, servers, serverProb)
+function [output, Pn] = theoreticalMM2(lambda, mu, queue, servers)
 %UNTITLED Summary of this function goes here
 %   Detailed explanation goes here
 
@@ -6,11 +6,8 @@ function [output, Pn] = theoreticalMM2(lambda, mu, queue, servers, serverProb)
 q = queue;
 ro = lambda/mu;
 s = servers;
-sp = serverProb
 
-%syms k l
-%S1 = (1+symsum(((ro^k)/factorial(k)) + (((ro^s)/factorial(s))*symsum((ro/s)^(l-s),l,(s+1),q)),k,1,s))^-1
-
+% fdgdsf
 % Prob of no costumers in system (First Summation)
 firstSum = 0;
 for i = 1:s
@@ -31,7 +28,7 @@ Pn(1) = ro*P0;
 Pn(2) = ((ro^2)/2)*P0;
 
 % Probability of n number of users in system (rest of n)
-for i = s:q
+for i = s:(q)
     Pn(i) = ((ro^i)/(factorial(s)*s^(i-s)))*P0;
 end
 
@@ -42,7 +39,7 @@ for i = s+1:(q-1)
 end
 
 % Average time spent in queue
-Wq = (1/(s*mu*(1-Pn(q))))* waitSum;
+Wq = ((1/(s*mu*(1-Pn(q)))) * waitSum) ;
 
 % Average time spent in system
 W = Wq + 1/mu;
@@ -58,23 +55,8 @@ L = (Lq+((lambda*(1-Pn(q)))/mu));
 U = (L-Lq)/s;
 
 % Blocking Probability 
-pb = 1-(q/ro);
+pb = ((1-ro)*(ro^s))/(1-(ro^s));
 
-Wq1 = Wq * sp;
-Wq2 = Wq * (1-sp);
-
-W1 = W * sp;
-W2 = W * (1-sp);
-
-Lq1 = Lq * sp;
-Lq2 = Lq * (1-sp);
-
-L1 = L * sp;
-L2 = L * (1-sp);
-
-pb1 = pb * sp;
-pb2 = pb * (1-sp);
-
-output = [Wq1 Wq2 Wq, W1, W2 W, Lq1, Lq2 Lq, L1, L2, L, U, P0, ro, pb1 pb2 pb];
+output = [Wq, W, Lq, L, U, P0, ro, Pn(q)];
 end
 

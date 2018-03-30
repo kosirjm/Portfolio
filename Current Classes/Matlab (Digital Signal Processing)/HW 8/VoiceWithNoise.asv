@@ -48,7 +48,7 @@ pause(5);
 % Find the normalized cross correlation
 normalizedVoice = myVoice / std(myVoice);
 curruptVoice = curruptVoice / std(curruptVoice);
-newVoice = xcorr(curruptVoice,myVoice)/(norm(curruptVoice)*norm(myVoice));
+newVoice = xcorr(corruptVoice,myVoice)/(norm(corruptVoice)*norm(myVoice));
 
 % Plot 
 period = 1/Hz;

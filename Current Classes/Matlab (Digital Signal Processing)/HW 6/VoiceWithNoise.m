@@ -1,10 +1,12 @@
+% Jonathan Kosir
 % Homework 6
 % ECE 425/525
-% Jonathan Kosir
 % This is a script which will record my voice add noise 
-% and apply a 10 stage moving filter to remove this noise
+% and apply a 12 stage moving filter to remove this noise
+%-----------------------------------------------------------------------
 
-Hz = 8000;
+Hz = 44100;
+
 % Record voice
 disp('Start Speaking');
 myVoice = audiorecorder(Hz,16,1);
@@ -31,13 +33,12 @@ rndNoiseArray = multiplier * rndNoiseArray(:);
 % Currupt My Voice
 curruptVoice = rndNoiseArray + myVoice;
 
-
 % Play Currupt then pause
 sound(curruptVoice,Hz);
 pause(3);
 
 % Create Filter
-myFilter(1:12) = ..0833;
+myFilter(1:12) = .0833;
 
 % Filter voice then play and save file
 filteredVoice = filter(myFilter, 1, curruptVoice);
@@ -54,7 +55,7 @@ errorSequence = abs(mean(filteredVoice) - mean(myVoice))
 relativeError=norm(filteredVoice-myVoice)/norm(myVoice) 
 
 % Write to wav
-audiowrite('voiceOrig8000Hz.wav',myVoice,Hz);
-audiowrite('voiceCurrupt8000Hz.wav',curruptVoice,Hz);
-audiowrite('voiceFiltered8000Hz.wav',filteredVoice,Hz);
+audiowrite('voiceOrig44100Hz.wav',myVoice,Hz);
+audiowrite('voiceCurrupt44100Hz.wav',curruptVoice,Hz);
+audiowrite('voiceFiltered44100Hz.wav',filteredVoice,Hz);
 
