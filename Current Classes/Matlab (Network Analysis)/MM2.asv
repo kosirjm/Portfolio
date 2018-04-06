@@ -12,7 +12,7 @@ speed = 1000; %Speed up simulation (Can't go above 1000)
 lambda = 8 * speed ;
 mu = 5 * speed;
 ro = lambda/mu;
-numPackets = 1000000; %Num packets to be processed cant go above 10,000,000
+numPackets = 1000000; % Num packets to be processed (cant go above 10,000,000
 numServers = 2;
 serverProb = 5;
 queueSize = 5;
@@ -52,8 +52,7 @@ for i = 2:numPackets
 end
 
 disp('Start Sim');
-simEstimate = num2str(packet(length(packet),1) +  ...
-    (exprnd(1/mu)*(queueSize/2)));
+simEstimate = num2str(packet(length(packet),1) +  (exprnd(1/mu)*(queueSize/2)));
 disp(['Sim will take about ', simEstimate, ' Seconds']);
 test = 0;
 test2 = 0;
@@ -140,13 +139,11 @@ while over ~= true
                         packet(i,3) = packet(i,2) + processTime;
                         
                     else
-                        packet(i,2) = packet(queue(state(2),...
-                            queueCurrentSize(state(2))),3);
+                        packet(i,2) = packet(queue(state(2),queueCurrentSize(state(2))),3);
                         packet(i,3) = packet(i,2) + processTime;
                     end
                     
-                    queueCurrentSize(state(2)) = ...
-                        queueCurrentSize(state(2)) + 1;
+                    queueCurrentSize(state(2)) = queueCurrentSize(state(2)) + 1;
                     queue(state(2),queueCurrentSize(state(2))) = i;
                 end
             end
@@ -163,14 +160,11 @@ while over ~= true
                 
                 if queueCurrentSize(state(2)) == 1
                     queue(state(2)) = 0;
-                    queueCurrentSize(state(2)) =...
-                        queueCurrentSize(state(2)) - 1;
+                    queueCurrentSize(state(2)) = queueCurrentSize(state(2)) - 1;
                 else
-                    queue(state(2),1:queueCurrentSize(state(2))) = ...
-                        [queue(state(2),2:queueCurrentSize(state(2))) 0];
+                    queue(state(2),1:queueCurrentSize(state(2))) = [queue(state(2),2:queueCurrentSize(state(2))) 0];
                     %queue(state(2),queueCurrentSize(state(2))) = 0;
-                    queueCurrentSize(state(2)) = ...
-                        queueCurrentSize(state(2)) - 1;
+                    queueCurrentSize(state(2)) = queueCurrentSize(state(2)) - 1;
                 end
                 serversState(state(2)) = 1;
                 % If current size is now zero set server state to idle
@@ -221,8 +215,7 @@ while over ~= true
     
 end
 
-disp(['Actual Time: ', num2str(toc(timerVal)), ...
-    ' Estimated Time: ', simEstimate])
+disp(['Actual Time: ', num2str(toc(timerVal)), ' Estimated Time: ', simEstimate])
 disp('Starting Data Calculations');
 packetsTo1 = sum(packet(dataStart:numPackets,4)==1);
 packetsTo2 = sum(packet(dataStart:numPackets,4)==2);
@@ -238,27 +231,18 @@ aveTimeProcessing = 0;
 for i = dataStart:numPackets
     if packet(i,1) ~= 0
         if packet(i,4) == 1
-            aveTimeInQueue1 = ((packet(i,2)*speed) - ...
-                (packet(i,1) * speed)) + aveTimeInQueue1;
-            aveTimeProcessing1 = ((packet(i,3)*speed) - ...
-                (packet(i,2) * speed)) + aveTimeProcessing1;
-            aveTimeInSystem1 = ((packet(i,3)*speed) - ...
-                (packet(i,1) * speed)) + aveTimeInSystem1;
+            aveTimeInQueue1 = ((packet(i,2)*speed) - (packet(i,1) * speed)) + aveTimeInQueue1;
+            aveTimeProcessing1 = ((packet(i,3)*speed) - (packet(i,2) * speed)) + aveTimeProcessing1;
+            aveTimeInSystem1 = ((packet(i,3)*speed) - (packet(i,1) * speed)) + aveTimeInSystem1;
         end
         if packet(i,4) == 2
-            aveTimeInQueue2 = ((packet(i,2)*speed) - ...
-                (packet(i,1) * speed)) + aveTimeInQueue2;
-            aveTimeProcessing2 = ((packet(i,3)*speed) - ...
-                (packet(i,2) * speed)) + aveTimeProcessing2;
-            aveTimeInSystem2 = ((packet(i,3) * speed )- ...
-                (packet(i,1) * speed)) + aveTimeInSystem2;
+            aveTimeInQueue2 = ((packet(i,2)*speed) - (packet(i,1) * speed)) + aveTimeInQueue2;
+            aveTimeProcessing2 = ((packet(i,3)*speed) - (packet(i,2) * speed)) + aveTimeProcessing2;
+            aveTimeInSystem2 = ((packet(i,3) * speed )- (packet(i,1) * speed)) + aveTimeInSystem2;
         end
-        aveTimeInQueue = ((packet(i,2)*speed) - ...
-            (packet(i,1) * speed)) + aveTimeInQueue;
-        aveTimeProcessing = ((packet(i,3)*speed) - ...
-            (packet(i,2) * speed)) + aveTimeProcessing;
-        aveTimeInSystem = ((packet(i,3)*speed) - ...
-            (packet(i,1) * speed)) + aveTimeInSystem;
+        aveTimeInQueue = ((packet(i,2)*speed) - (packet(i,1) * speed)) + aveTimeInQueue;
+        aveTimeProcessing = ((packet(i,3)*speed) - (packet(i,2) * speed)) + aveTimeProcessing;
+        aveTimeInSystem = ((packet(i,3)*speed) - (packet(i,1) * speed)) + aveTimeInSystem;
     end
 end
 samples = (toc(timerVal)-packet(dataStart,1))/interval;
@@ -337,8 +321,7 @@ disp(simTheo);
 theoretical = (theoretical1 + theoretical2);
 theoretical(1) = theoretical(1)/2;
 theoretical(2) = theoretical(2)/2;
-theoretical(5) = theoretical1(6) * theoretical2(6);
+theoretical(5) = theoretical1(5) * theoretical2(5);
 theoretical(8) = theoretical(8)/2;
-simulated = [aveTimeInQueue aveTimeInSystem aveNumInQueue aveNumTotal...
-    utilization P0 ro blockingProbabilityTotal];
+simulated = [aveTimeInQueue aveTimeInSystem aveNumInQueue aveNumTotal utilization P0 ro blockingProbabilityTotal];
 disp([values num2str(theoretical') spaces num2str(simulated')]);
