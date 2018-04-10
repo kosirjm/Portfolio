@@ -1,13 +1,25 @@
-function [output, Pn] = theoreticalMM2(lambda, mu, queue, servers)
-%UNTITLED Summary of this function goes here
-%   Detailed explanation goes here
+%{
+Jonathan Kosir
+M/M/2/K With variable prob of server choice
+ECE 461
+
+Theoretical Analysis Function
+This is a theoretical calculation function which is used in my MM2 simulation
+It calculates the theoretical values for the server system which is being
+simulated, so a comparison can be made.
+%}
+function output = theoreticalMM2(lambda, mu, queue, servers)
+% lambda = lambda (arrival speed) of system being analyzed
+% mu     = mu (departure speed) of the system being analayzed
+% queue  = queue size (how many packets can be in line)
+% servers= number of servers in the system
+% output =  the matrix which hold all the calculated values
 
 % Variables
 q = queue;
 ro = lambda/mu;
 s = servers;
 
-% fdgdsf
 % Prob of no costumers in system (First Summation)
 firstSum = 0;
 for i = 0:(s)
@@ -32,7 +44,6 @@ for i = 2:(q)
     Pn(i) = (((ro)^i)/(factorial(s)*s^(i-s)))*P0;
 end
 
-
 % Average number in queue
 psi = ro/s;
 Lq = (P0*(ro)^s*(psi))/(factorial(s)*(1-(psi))^2)*(1-((psi)^(q-s))-((q-s)*(psi^(q-s))*(1-(psi))));
@@ -52,6 +63,7 @@ U = (L-Lq)/s;
 % Blocking Probability 
 pb = Pn(q);
 
+% Output matrix
 output = [Wq, W, Lq, L, U, P0, ro, pb];
 end
 

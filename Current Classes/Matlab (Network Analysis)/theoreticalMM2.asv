@@ -1,6 +1,20 @@
+%{
+Jonathan Kosir
+M/M/2/K With variable prob of server choice
+ECE 461
+
+Theoretical Analysis Function
+This is a theoretical calculation function which is used in my MM2 simulation
+It calculates the theoretical values for the server system which is being
+simulated, so a comparison can be made.
+%}
 function [output, Pn] = theoreticalMM2(lambda, mu, queue, servers)
-%UNTITLED Summary of this function goes here
-%   Detailed explanation goes here
+% lambda = lambda (arrival speed) of system being analyzed
+% mu     = mu (departure speed) of the system being analayzed
+% queue  = queue size (how many packets can be in line)
+% servers= number of servers in the system
+% [output, Pn] = output =  the matrix which hold all the calculated values
+% Pn = the 
 
 % Variables
 q = queue;
@@ -32,24 +46,19 @@ for i = 2:(q)
     Pn(i) = (((ro)^i)/(factorial(s)*s^(i-s)))*P0;
 end
 
-% Summation needed for average ammount of time spent in the queue
-waitSum = 0;
-for i = s+1:(q-1)
-    waitSum = waitSum + Pn(i)*(i-s+1);
-end
-
-% Average time spent in queue
-Wq = ((1/(s*mu*(1-Pn(q)))) * waitSum) ;
-
-% Average time spent in system
-W = Wq + 1/mu;
 
 % Average number in queue
 psi = ro/s;
-Lq = ((P0*(ro)^s*(psi))/(factorial(s)*(1-(psi))^2)*(1-((psi)^(q-s))-((q-s)*(psi^(q-c))*(1-(psi))));
+Lq = (P0*(ro)^s*(psi))/(factorial(s)*(1-(psi))^2)*(1-((psi)^(q-s))-((q-s)*(psi^(q-s))*(1-(psi))));
 
 % Average number in entire system
 L = (Lq+((lambda*(1-Pn(q)))/mu));
+
+% Average time spent in queue
+Wq = Lq/(lambda*(1-Pn(q)));
+
+% Average time spent in system
+W = Wq + 1/mu;
 
 % Utilization Rates
 U = (L-Lq)/s;
