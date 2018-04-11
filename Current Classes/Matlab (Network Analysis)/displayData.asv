@@ -2,15 +2,22 @@
 Jonathan Kosir
 M/M/2/K With variable prob of server choice
 ECE 461
-
+---------------------------------------------------------------------------
+Display Function
 This is a a simple display function for the data which we would like to
 show after the simulation and theoretical calculations.  This could be done
-in the main program b
+in the main program but moved over here to remove reduncy and clutter. 
+--------------------------------------------------------------------
 %}
-
-function n = displayData(queue, theoretical, simulated, error)
-%DISPLAYDATA Summary of this function goes here
-%   Detailed explanation goes here
+function displayData(queue, theoretical, simulated, error)
+% queue        = String Value - The name you want to give the queue you are
+% displaying
+% theroretical = The matrix which holds all of your theroretical calculation
+% data
+% simulated    = The matrix which holds all of your simulated calculation
+% data
+% error        = The matreix which holds the error percentage beetween
+% theoretical and simulated values
 
 % Create some arrays to help display our data at the end of the simulation
 spaces = ['     '; '     '; '     '; '     '; '     '; '     ';...

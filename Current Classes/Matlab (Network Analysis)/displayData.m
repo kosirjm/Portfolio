@@ -3,10 +3,11 @@ Jonathan Kosir
 M/M/2/K With variable prob of server choice
 ECE 461
 
-Display Function
+-------------------------Display Function----------------------------------
 This is a a simple display function for the data which we would like to
 show after the simulation and theoretical calculations.  This could be done
-in the main program but moved over here to remove reduncy and clutter. 
+in the main program but moved here to remove reduncy and clutter. 
+---------------------------------------------------------------------------
 %}
 function displayData(queue, theoretical, simulated, error)
 % queue        = String Value - The name you want to give the queue you are

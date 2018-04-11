@@ -1,11 +1,12 @@
 %{
+---------------------------------------------------------------------------
 Jonathan Kosir
 M/M/2/K With variable prob of server choice
 ECE 461
-
+---------------------------------------------------------------------------
 This aignment was to simulate a M/M/2/K server.  The packets arrive
 using a Poisson distribution.  Once these packets arrive they have a set
-probability on which server they will choose.  Once chosen the packet will
+probability of which server they will choose.  Once chosen the packet will
 be either put into queue blocked or processed.  The servers process rate is
 an exponential random variable set in the program.  Once all packets are
 processed the program uses the data collected to caluclate needed matrix on
@@ -20,19 +21,19 @@ less servers or different types of arrival and departure processes.  Also
 could be more user friendly as in asking user to input needed values and
 the display of data given in a GUI. Also as always program speed and
 effeciency could be improved in small areas.
-------------------------------------------------------------------------
+---------------------------------------------------------------------------
 %}
 clear all
 
 % Variables decided before start of program if needed could create user
-% user input screen but in the case of this project it is not needed.
+% input screen but in the case of this project it is not needed.
 speed = 1000; %Speed up simulation (Can't go above 1000)
 lambda = 8 * speed ;
 mu = 5 * speed;
 ro = lambda/mu;
-numPackets = 100000; % Num packets to be processed cant go above 10,000,000
+numPackets = 100000000; % Num packets to be processed cant go above 10,000,000
 numServers = 2;
-serverProb = 5; % Percent of ten ie. 5 = .5
+serverProb = 5; % Percent of ten ie. 5 = .5 for one of the servers other = 1-%
 queueSize = 5;
 dataStart = 1000;
 timerVal = tic;
@@ -40,7 +41,7 @@ interval = 1/speed;
 ticker = interval;
 over = false;
 
-% Variables used during the sim to simulate packet movement
+% Variables used during the sim needed to simulate packet movement
 blocked = zeros(1:numServers);
 serversState = zeros(1:numServers);
 queueCurrentSize = zeros(1 : numServers);
@@ -90,7 +91,7 @@ while over ~= true
         % It has arrived
         if((packet(i,1) <= toc(timerVal)))
             
-            % Choose server to go to & hange state of server to arrival
+            % Choose server to go to & change state to arrival
             % and label which server the packet went to
             choice = randi(10);
             if choice <= serverProb
@@ -117,7 +118,7 @@ while over ~= true
         end
     end
     
-    % Switch states One case is arrival and the other departure
+    % Switch states one case is arrival and the other departure
     switch state(1)
         
         case 1 %Arrival
@@ -133,7 +134,7 @@ while over ~= true
                 processing(state(2)) = i;
                 serversState(state(2)) = 1;
                 
-                % If server busy
+            % If server busy
             else
                 
                 % If queue is full block and count
@@ -146,18 +147,19 @@ while over ~= true
                     
                     packet(i) = 0;
                     
-                    % If Queue has room
+                % If Queue has room
                 else
                     
-                    % Queue packet give this packets server start time to
-                    % be the time when the packet in leaves server
+                    % Queue packet give this packets server start time plus
+                    % process time to be the time when the packet in leaves
+                    % server
                     if queueCurrentSize(state(2)) == 0
                         packet(i,2) = packet(processing(state(2)),3);
                         packet(i,3) = packet(i,2) + processTime;
                         
-                        % Same as above but instead of grabbing server leave
-                        % time value for packet in server grabs the value from
-                        % packet in front of it in the queue
+                    % Same as above but instead of grabbing server leave
+                    % time value for packet in server grabs the value from
+                    % packet in front of it in the queue
                     else
                         packet(i,2) = packet(queue(state(2),...
                             queueCurrentSize(state(2))),3);
@@ -171,7 +173,7 @@ while over ~= true
                 end
             end
             
-            % Packet arrived
+            % Move to next packet that will arrive
             i = i + 1;
             state = [0 0];
             
@@ -188,7 +190,7 @@ while over ~= true
                     queueCurrentSize(state(2)) - 1;
                 serversState(state(2)) = 1;
                 
-                % If queue is empty
+            % If queue is empty
             else
                 
                 % If out of packets in the queue set state to zero
@@ -208,8 +210,7 @@ while over ~= true
     % be made later. This is specically done in this area vs
     % built into the above sim code because we only want to collect data
     % after the set ammount of packets have arrived to get better steady
-    % state results some simple data collection while sim is going on
-    % Check at set intervals
+    % state results check at set intervals
     if((toc(timerVal) >= ticker) && i >= dataStart)
         ticker = interval + ticker;
         
@@ -225,7 +226,7 @@ while over ~= true
             processing2 = processing2 + 1;
         end
         
-        % Count If either server is empty or both are
+        % Count if either server is empty or both are
         if (serversState(1) == 0)
             P01 = P01 + 1;
         end
@@ -253,7 +254,7 @@ for i = dataStart:numPackets
     % If packet not blocked count
     if packet(i,1) ~= 0
         
-        % Count different values (Ave time processing and total) if packet
+        % Count different values (Ave time, processing, and total) if packet
         % went to server 1
         if packet(i,4) == 1
             aveTimeInQueue1 = ((packet(i,2)*speed) - ...
@@ -264,7 +265,7 @@ for i = dataStart:numPackets
                 (packet(i,1) * speed)) + aveTimeInSystem1;
         end
         
-        % Count different values (Ave time processing and total) if packet
+        % Count different values (Ave time, processing, and total) if packet
         % went to server 2
         if packet(i,4) == 2
             aveTimeInQueue2 = ((packet(i,2)*speed) - ...
@@ -293,16 +294,16 @@ disp(' ');
 disp(' Data ');
 disp(' ');
 
-% Wait times for the two different queues (Queue, service and total time)
+% Wait times for the two different queues (Queue, service, and total time)
 % This is the simulated data
-aveTimeInQueue1 = (aveTimeInQueue1 / packetsTo1);
-aveTimeInQueue2 = (aveTimeInQueue2 / packetsTo2);
-aveTimeInSystem1 = (aveTimeInSystem1/packetsTo1);
-aveTimeInSystem2 = (aveTimeInSystem2/packetsTo2);
-aveTimeProcessing1 = (aveTimeProcessing1 / packetsTo1);
-aveTimeProcessing2 = (aveTimeProcessing2 / packetsTo2);
+aveTimeInQueue1 = aveTimeInQueue1 / packetsTo1;
+aveTimeInQueue2 = aveTimeInQueue2 / packetsTo2;
+aveTimeInSystem1 = aveTimeInSystem1/packetsTo1;
+aveTimeInSystem2 = aveTimeInSystem2/packetsTo2;
+aveTimeProcessing1 = aveTimeProcessing1 / packetsTo1;
+aveTimeProcessing2 = aveTimeProcessing2 / packetsTo2;
 
-% Entire system wait times (Queue, service and total time) simulated data
+% Entire system wait times (Queue, service, and total time) simulated data
 aveTimeInSystem = aveTimeInSystem/(numPackets-dataStart);
 aveTimeInQueue = aveTimeInQueue/(numPackets-dataStart);
 aveTimeProcessing = aveTimeProcessing/(numPackets-dataStart);
@@ -314,22 +315,22 @@ blockingProb2 = blocked(2)/packetsTo2;
 
 % Simulated number averages for both servers individually (queue, service,
 % and total
-aveNumInQueue1 = (totalInQueue1 / samples);
-aveNumInQueue2 =  (totalInQueue2 / samples);
+aveNumInQueue1 = totalInQueue1 / samples;
+aveNumInQueue2 = totalInQueue2 / samples;
 aveInSystem1 = processing1/samples;
 aveInSystem2 = processing2/samples;
 aveNumTotal1 = aveNumInQueue1 + aveInSystem1;
 aveNumTotal2 = aveNumInQueue2 + aveInSystem2;
 
 % Entire systems average numbers
-aveNumInQueue = (aveNumInQueue1 + aveNumInQueue2);
-aveNumInSystem = (aveInSystem1 + aveInSystem2);
-aveNumTotal = (aveNumInQueue + aveNumInSystem);
-utilization = (aveNumTotal - aveNumInQueue)/numServers;
+aveNumInQueue = aveNumInQueue1 + aveNumInQueue2;
+aveNumInSystem = aveInSystem1 + aveInSystem2;
+aveNumTotal = aveNumTotal1 + aveNumTotal2;
+utilization = aveNumInSystem/numServers;
 
-% Display our first server and queues result this result will be given in
+% Display our first server systems results this result will be given in
 % three columns first being what is being displayed second being our
-% theoretical data and the third being our fourth
+% theoretical data and the third being our error percentage
 theoretical1 = theoreticalMM2(((lambda/speed)*(serverProb/10)), ...
     (mu/speed), queueSize, 1);
 simulated1 = [aveTimeInQueue1 aveTimeInSystem1 aveNumInQueue1 ...
@@ -337,9 +338,7 @@ simulated1 = [aveTimeInQueue1 aveTimeInSystem1 aveNumInQueue1 ...
 error1 = (abs(simulated1 - theoretical1)./simulated1) .* 100;
 displayData('Queue 1', theoretical1, simulated1, error1);
 
-% Display our first server and queues result this result will be given in
-% three columns first being what is being displayed second being our
-% theoretical data and the third being our fourth
+% Display our second server system results deisplayed same as above
 theoretical2 = theoreticalMM2(((lambda/speed)*(1-(serverProb/10))),...
     (mu/speed), queueSize, 1);
 simulated2 = [aveTimeInQueue2 aveTimeInSystem2 aveNumInQueue2...
@@ -347,9 +346,14 @@ simulated2 = [aveTimeInQueue2 aveTimeInSystem2 aveNumInQueue2...
 error2 = (abs(simulated2 - theoretical2)./simulated2) .* 100;
 displayData('Queue 2', theoretical2, simulated2, error2);
 
-% Display our first server and queues result this result will be given in
-% three columns first being what is being displayed second being our
-% theoretical data and the third being our fourth.
+% Display our total server systems results displayed the same as above
+% The math for this part is a little different then the above two sections
+% Since the servers use probabilistic choice between the two servers
+% the resutling system is not a standard M/M/2/K system therefore
+% if values given were just inputed into the theoretical method the results
+% would be incorrect.  Therefor to get more accurate results we use the 
+% theoretical results from the two seperate server systems above and do
+% some math
 theoretical = (theoretical1 + theoretical2);
 theoretical(1) = theoretical(1)/2;
 theoretical(2) = theoretical(2)/2;
