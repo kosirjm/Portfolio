@@ -1,0 +1,19 @@
+#!/bin/busybox sh
+
+# Mount the virtual proc and sys file systems. 
+/bin/busybox mount -t proc proc /proc
+/bin/busybox mount -t sysfs sysfs /sys
+
+# Populate the /dev and /dev/pts with devices detected upon startup
+/bin/busybox mount -t devpts devpts /dev/pts
+/bin/busybox mdev -s
+
+# Startup klogd to log kernel messages
+/bin/klogd -c 5
+
+# Startup syslog to log system messages
+/bin/syslogd
+
+echo 'Good Job'
+echo 'Kosirjm'
+

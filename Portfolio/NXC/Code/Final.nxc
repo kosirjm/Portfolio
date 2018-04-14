@@ -1,0 +1,139 @@
+/*
+SENSOR_1 = RGB on right side
+SENSOR_2 = Light sensor on left side
+SENSOR_3 = Light sensor in middle
+Motor A = right
+Motor C = left
+White mat reads BLACK 34, WHITE 52, BLUE 41
+*/
+#define THRESHOLD_LIGHT_WHITE 50
+#define THRESHOLD_PARK 38
+#define FAST   75             // green
+#define SLOW 50               // yellow
+#define TURN_TIME_90 1000
+#define TURN_TIME_180 2000
+#define INPUT_BLACKCOLOR 1
+#define INPUT_BLUECOLOR 2
+#define INPUT_GREENCOLOR 3
+#define INPUT_YELLOWCOLOR 4
+#define INPUT_REDCOLORCOLOR 5
+#define INPUT_WHITECOLOR 6
+
+sub right_90 ()  // rotate robot 90 decrees clockwise
+{
+       OnFwd(OUT_C, 50);
+       Wait (TURN_TIME_90);
+       OnRev(OUT_A, 50);
+       Wait (TURN_TIME_90);
+       Off(OUT_AC);
+}
+       
+sub left_90 ()   // rotate robot 90 degrees to counterclockwise
+{
+       OnFwd(OUT_A, 50);
+       Wait (TURN_TIME_90);
+       OnRev(OUT_C, 50);
+       Wait (TURN_TIME_90);
+       Off(OUT_AC);
+}
+
+sub park ()
+{
+    // will be executed when (SENSOR_1 == 2 || SENSOR_2 > THRESHOLD_PARK)
+    if (SENSOR_1 == 2) // parking spot on right
+       {
+       // move robot into middle of opening
+       OnFwd(OUT_AC, 30);
+       Wait (1000);
+       Off(OUT_AC);
+       // rotate robot 90 degrees right
+       right_90();
+       // move robot into parking space
+       OnFwd(OUT_AC, 50);
+       Wait (1500);
+       Off(OUT_AC);
+       // rotate robot 180 degrees to face out
+       right_90();
+       right_90();
+       }
+    else if (SENSOR_2 > THRESHOLD_PARK) // parking spot on left
+       {
+       // move robot into middle of opening
+       OnFwd(OUT_AC, 30);
+       Wait (1000);
+       Off(OUT_AC);
+       // rotate robot 90 degrees left
+       left_90();
+       // move robot into parking space
+       OnFwd(OUT_AC, 50);
+       Wait (1500);
+       Off(OUT_AC);
+       // rotate robot 180 degrees to face out
+       right_90();
+       right_90();
+       }
+} // end sub park
+
+
+
+sub leave_park {
+    OnFwd(OUT_AC, 40);
+    until (SENSOR_2 > THRESHOLD_LIGHT_WHITE || SENSOR_1 == 6);
+    Off(OUT_AC);
+    OnFwd(OUT_AC, 20); // line up robot with the center lines
+    Wait (300);
+    // turn right
+    right_90();
+    // turn left
+    left_90();
+}
+
+
+sub red_square {
+    Off(OUT_AC, 30);
+    Wait(2500);
+    OnFwd(OUT_AC,30);
+    // move up to the white intersecting lines
+    until(SENSOR_2 > THRESHOLD_LIGHT_WHITE || SENSOR_1 == 6);
+    Off(OUT_AC);
+    // decide what to do if it's a 4-way, 3-way, or corner
+    
+    
+    if (SENSOR_2 > THRESHOLD_LIGHT && SENSOR_1 == 6)
+       // 4-way or L&R intersection
+       {
+       OnFwd(OUT_AC, 30);
+       Wait(200);
+       if (SENSOR_3 > THRESHOLD_LIGHT_WHITE) // 4 way intersection
+          {
+          }
+       else // L&R intersection
+           {
+           }
+
+    } // end if
+       
+    else if (SENSOR_2 > THRESHOLD_LIGHT_WHITE && SENSOR_1 != 6) {
+         // may have left corner or 3-way with left turn
+         OnFwd(OUT_AC, 30);
+         Wait(200);
+         if (SENSOR_3 > THRESHOLD_LIGHT_WHITE) // 3 way intersection with left turn
+            {
+            }
+         else // corner with left turn
+              {
+              }
+    } // end else if
+    
+    else if (SENSOR_2 <= THRESHOLD_LIGHT_WHITE && SENSOR_1 == 6) {
+         // may have right corner or 3-way with right turn
+         OnFwd(OUT_AC, 30);
+         Wait(200);
+         if (SENSOR_3 > THRESHOLD_LIGHT_WHITE) // 3 way intersection with left turn
+            {
+            }
+         else // corner with right turn
+             {
+             }
+    } // end else if
+
