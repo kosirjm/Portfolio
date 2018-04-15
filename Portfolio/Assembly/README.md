@@ -17,14 +17,11 @@ DEMONSTRATION
 
 FILES
 ---------------------------
-**Hello World** - This is a simple hello world program in assembly. 	
-
-**Multiples** - This is a simple assembly program which multiples two numbers which are given by user input.  With each iteration of the loop the number is printed out until the completion of the multiplication. 
-
-**Greater Than** - This assembly program takes in two inputs from the user and returns the one which is greater than the other.
-
-**Atoi1** - This is a simple program which turns a entered string into an integer.
-
-**Palindrome** - This program takes a string inputted by a user and lets you know if it is a palindrome or n
+* **Programs (Folder)** - Contains all assembly programs
+	* **Hello World** - This is a simple hello world program in assembly. 	
+	* **Multiples** - This is a simple assembly program which multiplies two numbers which are given by user input.  With each iteration of the loop the number is printed out until the completion of the multiplication. 
+	* **Greater Than** - This assembly program takes in two inputs from the user and returns the one which is greater than the other.
+	* **Atoi1** - This is a simple program which turns a entered string into an integer.
+	* **Palindrome** - This program takes a string inputted by a user and lets you know if it is a palindrome or not
 
 
