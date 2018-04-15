@@ -1,7 +1,7 @@
 NETWORK ANALYSIS
-
-MATLAB Approach
 ================
+MATLAB Approach
+---------------
 DESCRIPTION
 --------------
 The below programs show the ability to create and analyze different types of systems which may occur in computer and communication networks.  These simulations model delay and occupancy models in networks, architectures, transmission media, multiple access, switching, and protocols.  Not only do these programs show the ability to develop programs which can be used to represent these systems but the ability to compare these programs to theoretical results which are calculated. 
