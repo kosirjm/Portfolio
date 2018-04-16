@@ -1,19 +1,17 @@
-<h2 style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</h2>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><strong><span style="font-size: 18pt; font-family: Arial; color: #050505; background-color: transparent; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">NETWORK ANALYSIS</span></strong></p>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; margin-left: 36pt;"><span style="font-size: 15pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">MATLAB Approach</span></p>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 15pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">?</span></p>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><strong><span style="font-size: 13.999999999999998pt; font-family: Arial; color: #050505; background-color: transparent; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">DESCRIPTION</span></strong></p>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">The below programs show the ability to create and analyze different types of systems which may occur in computer and communication networks. &nbsp;These simulations model delay and occupancy models in networks, architectures, transmission media, multiple access, switching, and protocols. Not only do these programs show the ability to develop programs which can be used to represent these systems but the ability to compare these programs to theoretical results which are calculated. </span></p>
-<h2 style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><br /><br /></h2>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><strong><span style="font-size: 13.999999999999998pt; font-family: Arial; color: #050505; background-color: transparent; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">KNOWLEDGE GAINED</span></strong></p>
-<ul style="margin-top: 0pt; margin-bottom: 0pt;">
-<li style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 36pt;"><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">The understanding of different tools used to analyze and compare different communications and networks.</span></li>
-<li style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 36pt;"><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">How to develop simulations and programs to analyze certain network types</span></li>
-<li style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 36pt;"><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">How to bridge the gap between fundamental mathematics and application of the mathematics to real life engineering problems</span></li>
-<li style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 36pt;"><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">A better understanding of problems which may arise in real world situations</span></li>
-</ul>
-<h2 style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</h2>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><strong><span style="font-size: 13.999999999999998pt; font-family: Arial; color: #050505; background-color: transparent; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">DEMONSTRATION</span></strong></p>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">??</span></p>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><strong><span style="font-size: 13.999999999999998pt; font-family: Arial; color: #050505; background-color: transparent; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">FILES</span></strong></p>
-<h2 style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><br /><br /></h2>
+
+NETWORK ANALYSIS
+MATLAB Approach
+?
+DESCRIPTION
+	The below programs show the ability to create and analyze different types of systems which may occur in computer and communication networks.  These simulations model delay and occupancy models in networks, architectures, transmission media, multiple access, switching, and protocols.  Not only do these programs show the ability to develop programs which can be used to represent these systems but the ability to compare these programs to theoretical results which are calculated. 
+
+
+KNOWLEDGE GAINED
+The understanding of different tools used to analyze and compare different communications and networks.
+How to develop simulations and programs to analyze certain network types
+How to bridge the gap between fundamental mathematics and application of the mathematics to real life engineering problems
+A better understanding of problems which may arise in real world situations
+
+DEMONSTRATION
+??
+FILES
