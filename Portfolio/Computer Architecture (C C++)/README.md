@@ -1,7 +1,7 @@
 
-COMPUTER ARCHITECTURE (C/C++ Programming For Systems)
+# COMPUTER ARCHITECTURE (C/C++ PROGRAMMING FOR SYSTEMS)
 ------------------------------
-?
+
 DESCRIPTION
 ------------------------------
 The programs below show a fairly comprehensive understanding of computer architecture.  The ability to understand different principles behind the design and implementation of operating systems, and the understanding of an OS as a resource manager.  With this many topics were learnt and listed below:
@@ -24,6 +24,8 @@ KNOWLEDGE GAINED
 
 DEMONSTRATION
 -------------------------------
-??
+TODO
+
 FILES
 -------------------------------
+TODO

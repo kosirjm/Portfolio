@@ -1,4 +1,4 @@
-SUPPLY CHAIN MANAGEMENT (SENIOR CAPSTONE PROJECT)
+# SUPPLY CHAIN MANAGEMENT (SENIOR CAPSTONE PROJECT)
 -----------------------
 
 DESCRIPTION
@@ -7,7 +7,7 @@ This project was a year long project which consisted of a five person team.  In 
 
 Our main goal for this project was to use stochastic modeling to create an optimized scheduling system to solve this problem.  Our one limitation we set ourselves was to maximize the efficiency of the program and to minimize computational resources needed.  We decided we would make sure this program would run on a standard desktop computer instead of a cluster system which most hospitals use.  With this we created a MATLAB program which ran the optimization of the schedule, a LAMP computer system to store the data and be the system for the MATLAB program to run on, and a simple IOS app to display the info. 
 
-KNOWLEDGE GAINED?
+KNOWLEDGE GAINED
 -------------------------
 * Supply chain management from a software development point of view
 * Stochastic modeling

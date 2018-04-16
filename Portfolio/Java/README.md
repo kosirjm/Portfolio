@@ -1,7 +1,6 @@
-
-JAVA PROGRAMMING (Collection Of Java Programs)
+# JAVA PROGRAMMING (COLLECTION OF JAVA PROGRAMS)
 ---------------------
-?
+
 DESCRIPTION
 ---------------------
 The below programs are a collection of all my Java programs created over the past years.  It shows the ability to program robust software using object oriented techniques such as inheritance, polymorphism, and composition.  It also shows the ability to create programs which contain recursion, exception handling, file IO, and GUIs.   The network, client/server, side of programming was also touched upon using Java as a programming language.  The programs below also show knowledge with in this area.  Different types of data communication and network based software are demonstrated. 
@@ -23,7 +22,7 @@ KNOWLEDGE GAINED
 
 DEMONSTRATION
 ----------------------
-https://www.youtube.com/watch?v=gDkk_LVSavI&list=PLuSGM-MPAOeY0V1co1kcpdbt876YwTu6H
+[Java Deomstration Playlist](https://www.youtube.com/watch?v=gDkk_LVSavI&list=PLuSGM-MPAOeY0V1co1kcpdbt876YwTu6H)
 
 FILES
 ----------------------

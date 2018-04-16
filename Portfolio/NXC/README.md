@@ -1,4 +1,4 @@
-NXC ROBOT (Engineering Design Process)
+# NXC ROBOT (ENGINEERING DESIGN PROCESS)
 ------------------------
 
 DESCRIPTION
@@ -11,13 +11,10 @@ KNOWLEDGE GAINED
 * Engineering project development and design process
 * How to handle sensor input and produce system output
 * Team project development
-??
+
 FILES
 ------------------------
-####Code (Folder)
-####FinalProject.nxc
-  - Our final code programmed into our NXC robot
-####Pics (Folder)
- - All Pictures of our built robot
-####NXC-Report.pdf
- - Our final report for the NXC project
+**Code (Folder)**
+    **FinalProject.nxc** - Our final code programmed into our NXC robot
+**Pics (Folder)** - All Pictures of our built robot
+	**NXC-Report.pdf** - Our final report for the NXC project

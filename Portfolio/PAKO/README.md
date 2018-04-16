@@ -1,4 +1,4 @@
-PAKO INC. (INTERNSHIP) File Sharing Website
+# PAKO INC. (INTERNSHIP) FILE SHARING WEBSITE
 ----------------------
 
 DESCRIPTION
@@ -15,7 +15,7 @@ When the product was up and functioning the website had to be audited and inspec
 * Email notifications to the correct people for certain actions such as upload download or other various file operations
 * Secure login with captcha
 * Different directories and permissions for each user
-?
+
 KNOWLEDGE GAINED
 ---------------------
 Research and application development
@@ -25,10 +25,9 @@ How to maintain and use a WAMP server
 Public speaking
 Technical writing and presenting
 Website and server security
-?
+
 FILES
 --------------------
 Since this is proprietary content no source code could be displayed and only some screenshots could be shown.
 
-####Pics(folder)
- - All the pictures able to show of the final file sharing website
+**Pics(folder)** - All the pictures able to show of the final file sharing website
