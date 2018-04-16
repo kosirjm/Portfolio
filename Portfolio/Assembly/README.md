@@ -1,26 +1,35 @@
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><strong><span style="font-size: 18pt; font-family: Arial; color: #050505; background-color: transparent; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Assembly</span></strong></p>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; margin-left: 36pt;"><span style="font-size: 15pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Assembly Basics</span></p>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 15pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">?</span></p>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><strong><span style="font-size: 13.999999999999998pt; font-family: Arial; color: #050505; background-color: transparent; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">DESCRIPTION</span></strong></p>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">The following programs shows a basic understanding of assembly level programming. &nbsp;In doing this a more in depth understanding of the basics of a computer system were obtained. &nbsp;It shows the understanding of assembly instructions, how to write an assembly program, and how higher level languages get translated into assembly. &nbsp;Each file was written in MIPS and used the MARS compiler. Below is a quick video demonstrates of each program and all programs can be downloaded from below.</span></p>
-<p>&nbsp;</p>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><strong><span style="font-size: 13.999999999999998pt; font-family: Arial; color: #050505; background-color: transparent; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">KNOWLEDGE GAINED</span></strong></p>
-<ul style="margin-top: 0pt; margin-bottom: 0pt;">
-<li style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 36pt;"><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">How to execute higher level actions such as loops conditionals and function calls in assembly.</span></li>
-<li style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 36pt;"><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">A better understanding of memory on a low level (and how it is organized), control path, and data path</span></li>
-<li style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 36pt;"><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">How to translate C into assembly</span></li>
-</ul>
-<p>&nbsp;</p>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><strong><span style="font-size: 13.999999999999998pt; font-family: Arial; color: #050505; background-color: transparent; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">DEMONSTRATION</span></strong></p>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; text-indent: 36pt;"><a style="text-decoration: none;" href="https://www.youtube.com/watch?v=MGVN7sXXwvc&amp;list=PLuSGM-MPAOebtWbRm12kRIfXmo8BgYERH"><span style="font-size: 12pt; font-family: Arial; color: #1155cc; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: underline; -webkit-text-decoration-skip: none; text-decoration-skip-ink: none; vertical-align: baseline; white-space: pre-wrap;">Assembly Programs Demonstration Playlist</span></a></p>
-<p>&nbsp;</p>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><strong><span style="font-size: 13.999999999999998pt; font-family: Arial; color: #050505; background-color: transparent; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">FILES</span></strong></p>
-<h1 style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Hello World - This is a simple hello world program in assembly. </span></h1>
-<p>&nbsp;</p>
-<h1 style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Multiples &nbsp;- This is a simple assembly program which multiples two numbers which are given by user input. &nbsp;With each iteration of the loop the number is printed out until the completion of the multiplication. </span></h1>
-<p>&nbsp;</p>
-<h1 style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Greater Than - This assembly program takes in two inputs from the user and returns the one which is greater than the other.</span></h1>
-<p>&nbsp;</p>
-<h1 style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Atoi1 -This is a simple program which turns a entered string into an integer.</span></h1>
-<p>&nbsp;</p>
-<h1 style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Palindrome - This program takes a string inputted by a user and lets you know if it is a palindrome or n</span></h1>
+Assembly (Assembly Basics)
+--------------------------
+?
+DESCRIPTION
+--------------------------
+The following programs shows a basic understanding of assembly level programming.  In doing this a more in depth understanding of the basics of a computer system were obtained.  It shows the understanding of assembly instructions, how to write an assembly program, and how higher level languages get translated into assembly.  Each file was written in MIPS and used the MARS compiler. Below is a quick video demonstrates of each program and all programs can be downloaded from below.
+
+KNOWLEDGE GAINED
+--------------------------
+* How to execute higher level actions such as loops conditionals and function calls in assembly.
+* A better understanding of memory on a low level (and how it is organized), control path, and data path
+* How to translate C into assembly
+
+DEMONSTRATION
+---------------------------
+https://www.youtube.com/watch?v=MGVN7sXXwvc&list=PLuSGM-MPAOebtWbRm12kRIfXmo8BgYERH
+
+FILES
+---------------------------
+####Hello World
+ - This is a simple hello world program in assembly. 	
+
+####Multiples
+  - This is a simple assembly program which multiples two numbers which are given by user input.  With each iteration of the loop the number is printed out until the completion of the multiplication. 
+
+####Greater Than
+ - This assembly program takes in two inputs from the user and returns the one which is greater than the other.
+
+####Atoi1
+ -This is a simple program which turns a entered string into an integer.
+
+####Palindrome
+ - This program takes a string inputted by a user and lets you know if it is a palindrome or n
+
+

@@ -1,18 +1,19 @@
-<h2 style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</h2>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><strong><span style="font-size: 18pt; font-family: Arial; color: #050505; background-color: transparent; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">DIGITAL SIGNAL PROCESSING</span></strong></p>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; margin-left: 36pt;"><span style="font-size: 15pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">MATLAB Approach</span></p>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 15pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">?</span></p>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><strong><span style="font-size: 13.999999999999998pt; font-family: Arial; color: #050505; background-color: transparent; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">DESCRIPTION</span></strong></p>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">The programs below show a general understand of DSP concepts and the ability to create, program, and analyze different types of DSP filters, which can used &nbsp;in many different fields such as computing telecommunications and other fields of interest. It also shows the ability to develop different types of algorithms to be used for DSP applications in audio/image processing, telecommunications and data compression. &nbsp;</span></p>
-<h2 style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</h2>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><strong><span style="font-size: 13.999999999999998pt; font-family: Arial; color: #050505; background-color: transparent; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">KNOWLEDGE GAINED</span></strong></p>
-<ul style="margin-top: 0pt; margin-bottom: 0pt;">
-<li style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 36pt;"><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">The ability to design different types of digital filters via programming</span></li>
-<li style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 36pt;"><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">How to analyze and design DSP systems</span></li>
-<li style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 36pt;"><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">The understanding of basic DSP concepts such as how to perform Z-transforms, fourier transforms, and the basic operations such as quantization processes and sampling operations</span></li>
-</ul>
-<h2 style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</h2>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><strong><span style="font-size: 13.999999999999998pt; font-family: Arial; color: #050505; background-color: transparent; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">DEMONSTRATION</span></strong></p>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">??</span></p>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><strong><span style="font-size: 13.999999999999998pt; font-family: Arial; color: #050505; background-color: transparent; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">FILES</span></strong></p>
-<h2 style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><br /><br /></h2>
+
+DIGITAL SIGNAL PROCESSING (MATLAB APPROACH)
+-------------------
+
+DESCRIPTION
+-------------------
+The programs below show a general understand of DSP concepts and the ability to create, program, and analyze different types of DSP filters, which can used  in many different fields such as computing telecommunications and other fields of interest.  It also shows the ability to develop different types of algorithms to be used for DSP applications in audio/image processing, telecommunications and data compression.  
+
+KNOWLEDGE GAINED
+--------------------
+* The ability to design different types of digital filters via programming
+* How to analyze and design DSP systems
+* The understanding of basic DSP concepts such as how to perform Z-transforms, fourier transforms, and the basic operations such as quantization processes and sampling operations
+
+DEMONSTRATION
+--------------------
+
+FILES
+--------------------

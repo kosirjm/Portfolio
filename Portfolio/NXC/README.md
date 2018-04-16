@@ -1,19 +1,23 @@
-<h2 style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><strong><span style="font-size: 18pt; font-family: Arial; color: #050505; background-color: transparent; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">NXC ROBOT</span></strong></h2>
-<h4 style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; text-indent: 36pt;"><span style="font-size: 13.999999999999998pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Engineering Design Process</span></h4>
-<h2 style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</h2>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><strong><span style="font-size: 13.999999999999998pt; font-family: Arial; color: #050505; background-color: transparent; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">DESCRIPTION</span></strong></p>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 15pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">This project was the first project I worked on in the engineering department at Miami University. &nbsp;We were tasked with designing a robot that hung from a track. This hanging robot would move along this track and would differentiate between blocks placed along the path. &nbsp;The robot would then do different task such as knock the block down, or make a noise. This was my first introduction to design processes and programming, as well as working in a team to complete a given task. &nbsp;Sadly, there is not available video for this project in action, it has been lost to the sands of time.</span></p>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><strong><span style="font-size: 13.999999999999998pt; font-family: Arial; color: #050505; background-color: transparent; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">KNOWLEDGE GAINED</span></strong></p>
-<ul style="margin-top: 0pt; margin-bottom: 0pt;">
-<li style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 6pt;"><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Basic computer programming concepts</span></li>
-<li style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 6pt;"><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Engineering project development and design process</span></li>
-<li style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 6pt;"><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">How to handle sensor input and produce system output</span></li>
-<li style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 6pt;"><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Team project development</span></li>
-</ul>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 13.999999999999998pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">??</span></p>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><strong><span style="font-size: 13.999999999999998pt; font-family: Arial; color: #050505; background-color: transparent; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">FILES</span></strong></p>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; text-indent: 36pt;"><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Code (Folder)</span></p>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; text-indent: 36pt;"><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">FinalProject.nxc &nbsp;- Our final code programmed into our NXC robot</span></p>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; text-indent: 36pt;"><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Pics (Folder) - All Pictures of our built robot</span></p>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; text-indent: 36pt;"><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">NXC-Report.pdf - Our final report for the NXC project</span></p>
-<h2 style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><br /><br /></h2>
+NXC ROBOT (Engineering Design Process)
+------------------------
+
+DESCRIPTION
+------------------------
+This project was the first project I worked on in the engineering department at Miami University.  We were tasked with designing a robot that hung from a track.  This hanging robot would move along this track and would differentiate between blocks placed along the path.  The robot would then do different task such as knock the block down, or make a noise.  This was my first introduction to design processes and programming, as well as working in a team to complete a given task.  Sadly, there is not available video for this project in action, it has been lost to the sands of time.
+ 
+KNOWLEDGE GAINED
+------------------------
+* Basic computer programming concepts
+* Engineering project development and design process
+* How to handle sensor input and produce system output
+* Team project development
+??
+FILES
+------------------------
+####Code (Folder)
+####FinalProject.nxc
+  - Our final code programmed into our NXC robot
+####Pics (Folder)
+ - All Pictures of our built robot
+####NXC-Report.pdf
+ - Our final report for the NXC project

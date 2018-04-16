@@ -1,22 +1,26 @@
-<h2 style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><strong><span style="font-size: 18pt; font-family: Arial; color: #050505; background-color: transparent; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">MUSIC BOX</span></strong></h2>
-<h4 style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; text-indent: 36pt;"><span style="font-size: 13.999999999999998pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Arduino Music Server</span></h4>
-<h2 style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</h2>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><strong><span style="font-size: 13.999999999999998pt; font-family: Arial; color: #050505; background-color: transparent; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">DESCRIPTION</span></strong></p>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">This project&rsquo;s goal was create a system which represented a digital music storage player. &nbsp;With a press of a button the device would pause or play, and if you held the button down the player would go to the next song. &nbsp;The songs the player would play were 8-bit WAV files stored on the Arduino&rsquo;s SD card. An additional feature was also added in which the file system on the SD could be accessed by typing in the Arduinos IP address into a web browser. &nbsp;In doing this, when the user clicked on the link for the song it would be played. The music was outputted by the PWN in the arduino to a 2.5 mm headphone jack. With this you could plug this system into any speaker with a 2.5 mm cable connection. </span></p>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 15pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><strong><span style="font-size: 13.999999999999998pt; font-family: Arial; color: #050505; background-color: transparent; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">KNOWLEDGE GAINED</span></strong><span style="font-size: 13.999999999999998pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">?</span></p>
-<ul style="margin-top: 0pt; margin-bottom: 0pt;">
-<li style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 4pt;"><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Convert between various number systems and interface between analog and digital systems</span></li>
-<li style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 4pt;"><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Characterize and use various sensors and actuators</span></li>
-<li style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 4pt;"><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Design, build, and program systems that use sensors, actuators, and microcontrollers to implement real-time measurement, monitoring, and control systems.</span></li>
-</ul>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 15pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">?</span></p>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><strong><span style="font-size: 13.999999999999998pt; font-family: Arial; color: #050505; background-color: transparent; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">DEMONSTRATION</span></strong></p>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; text-indent: 36pt;"><a style="text-decoration: none;" href="https://www.youtube.com/watch?v=YdL66N9AYgw"><span style="font-size: 12pt; font-family: Arial; color: #1155cc; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: underline; -webkit-text-decoration-skip: none; text-decoration-skip-ink: none; vertical-align: baseline; white-space: pre-wrap;">Music Box Demonstration</span></a></p>
-<h2 style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</h2>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><strong><span style="font-size: 13.999999999999998pt; font-family: Arial; color: #050505; background-color: transparent; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">FILES</span></strong></p>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; text-indent: 36pt;"><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Disclaimer: &nbsp;These files were done for a course that was taken. &nbsp;Some files may be poorly commented, not completely working. or made much more robust and user friendly. &nbsp;This is due to either time constraints or simply lack of knowledge of the subject at time of creation. At some point I may go back and fix up everything, but for now this is here to provide an idea of thought process and an idea of general ability in this subject matter.</span></p>
-<h2 style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</h2>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; text-indent: 36pt;"><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Pics (Folder) - All the pics of our final music box</span></p>
-<p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; text-indent: 36pt;"><span style="font-size: 12pt; font-family: Arial; color: #050505; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">MusicPlayerReport.pdf - Our final music player project report</span></p>
-<h2 style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><br /><br /><br /></h2>
+MUSIC BOX (Arduino Music Server)
+--------------------
+
+DESCRIPTION
+--------------------
+This project’s goal was create a system which represented a digital music storage player.  With a press of a button the device would pause or play, and if you held the button down the player would go to the next song.  The songs the player would play were 8-bit WAV files stored on the Arduino’s SD card.  An additional feature was also added in which the file system on the SD could be accessed by typing in the Arduinos IP address into a web browser.  In doing this, when the user clicked on the link for the song it would be played.  The music was outputted by the PWN in the arduino to a 2.5 mm headphone jack.  With this you could plug this system into any speaker with a 2.5 mm cable connection. 
+           
+KNOWLEDGE GAINED?
+--------------------
+* Convert between various number systems and interface between analog and digital systems
+* Characterize and use various sensors and actuators
+* Design, build, and program systems that use sensors, actuators, and microcontrollers to implement real-time measurement, monitoring, and control systems.
+?
+DEMONSTRATION
+--------------------
+https://www.youtube.com/watch?v=YdL66N9AYgw
+
+FILES
+--------------------
+Disclaimer:  These files were done for a course that was taken.  Some files may be poorly commented, not completely working. or made much more robust and user friendly.  This is due to either time constraints or simply lack of knowledge of the subject at time of creation.  At some point I may go back and fix up everything, but for now this is here to provide an idea of thought process and an idea of general ability in this subject matter.
+
+####Pics (Folder)
+ - All the pics of our final music box
+####MusicPlayerReport.pdf 
+- Our final music player project report
+
