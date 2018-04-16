@@ -22,7 +22,7 @@ KNOWLEDGE GAINED
 
 DEMONSTRATION
 ----------------------
-[Java Deomstration Playlist](https://www.youtube.com/watch?v=gDkk_LVSavI&list=PLuSGM-MPAOeY0V1co1kcpdbt876YwTu6H)
+[Java Demonstration Playlist](https://www.youtube.com/watch?v=gDkk_LVSavI&list=PLuSGM-MPAOeY0V1co1kcpdbt876YwTu6H)
 
 FILES
 ----------------------

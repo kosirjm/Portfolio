@@ -15,6 +15,6 @@ KNOWLEDGE GAINED
 FILES
 ------------------------
 **Code (Folder)**
-    **FinalProject.nxc** - Our final code programmed into our NXC robot
+	**FinalProject.nxc** - Our final code programmed into our NXC robot
 **Pics (Folder)** - All Pictures of our built robot
 	**NXC-Report.pdf** - Our final report for the NXC project

@@ -14,7 +14,7 @@ KNOWLEDGE GAINED
 
 DEMONSTRATION
 ---------------------
-[C++ Program Demonstration Playlist](https://www.youtube.com/watch?v=sWNuNIQbCug&list=PLuSGM-MPAOebzVqEm0vWXHIv_f7HO4_wi)
+[C++ Demonstration Playlist](https://www.youtube.com/watch?v=sWNuNIQbCug&list=PLuSGM-MPAOebzVqEm0vWXHIv_f7HO4_wi)
 
 FILES
 ---------------------
