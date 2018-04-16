@@ -13,7 +13,7 @@ KNOWLEDGE GAINED
 
 DEMONSTRATION
 ---------------------------
-https://www.youtube.com/watch?v=MGVN7sXXwvc&list=PLuSGM-MPAOebtWbRm12kRIfXmo8BgYERH
+[Assembly Demonstration Playlist](https://www.youtube.com/watch?v=MGVN7sXXwvc&list=PLuSGM-MPAOebtWbRm12kRIfXmo8BgYERH)
 
 FILES
 ---------------------------
