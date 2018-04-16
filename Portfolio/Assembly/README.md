@@ -1,6 +1,6 @@
 Assembly (Assembly Basics)
 --------------------------
-?
+
 DESCRIPTION
 --------------------------
 The following programs shows a basic understanding of assembly level programming.  In doing this a more in depth understanding of the basics of a computer system were obtained.  It shows the understanding of assembly instructions, how to write an assembly program, and how higher level languages get translated into assembly.  Each file was written in MIPS and used the MARS compiler. Below is a quick video demonstrates of each program and all programs can be downloaded from below.
@@ -17,19 +17,14 @@ https://www.youtube.com/watch?v=MGVN7sXXwvc&list=PLuSGM-MPAOebtWbRm12kRIfXmo8BgY
 
 FILES
 ---------------------------
-####Hello World
- - This is a simple hello world program in assembly. 	
+**Hello World** - This is a simple hello world program in assembly. 	
 
-####Multiples
-  - This is a simple assembly program which multiples two numbers which are given by user input.  With each iteration of the loop the number is printed out until the completion of the multiplication. 
+**Multiples** - This is a simple assembly program which multiples two numbers which are given by user input.  With each iteration of the loop the number is printed out until the completion of the multiplication. 
 
-####Greater Than
- - This assembly program takes in two inputs from the user and returns the one which is greater than the other.
+**Greater Than** - This assembly program takes in two inputs from the user and returns the one which is greater than the other.
 
-####Atoi1
- -This is a simple program which turns a entered string into an integer.
+**Atoi1** - This is a simple program which turns a entered string into an integer.
 
-####Palindrome
- - This program takes a string inputted by a user and lets you know if it is a palindrome or n
+**Palindrome** - This program takes a string inputted by a user and lets you know if it is a palindrome or n
 
 
