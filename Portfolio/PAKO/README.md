@@ -30,4 +30,4 @@ FILES
 --------------------
 Since this is proprietary content no source code could be displayed and only some screenshots could be shown.
 
-**Pics(folder)** - All the pictures able to show of the final file sharing website
+**Pics (Folder)** - All the pictures able to show of the final file sharing website

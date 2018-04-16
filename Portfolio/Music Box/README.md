@@ -19,6 +19,6 @@ FILES
 --------------------
 Disclaimer:  These files were done for a course that was taken.  Some files may be poorly commented, not completely working. or made much more robust and user friendly.  This is due to either time constraints or simply lack of knowledge of the subject at time of creation.  At some point I may go back and fix up everything, but for now this is here to provide an idea of thought process and an idea of general ability in this subject matter.
 
-**Pics (Folder)** - All the pics of our final music box
-	**MusicPlayerReport.pdf** - Our final music player project report
+* **Pics (Folder)** - All the pics of our final music box
+* **MusicPlayerReport.pdf** - Our final music player project report
 
