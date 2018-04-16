@@ -37,11 +37,11 @@ ro = lambda/mu;
 % Num packets to be processed would not suggest going over 10,000,000 
 % though number is limited by RAM avaliable to MATLAB at 10,000,000 packtes
 % and highest speed sim take approx 20min if kept at highest speed
-numPackets = 1000000; 
+numPackets = 100000; 
 numServers = 2;
 % Server Prob Assignment [.4 .5 .6]
 serverProb = 4; % Percent of ten ie. 5 = .5 for one of the servers other = 1-%
-queueSize = 5; % Assignment [20 5]
+queueSize = 20; % Assignment [20 5]
 dataStart = 10000;
 timerVal = tic;
 interval = 1/speed;
