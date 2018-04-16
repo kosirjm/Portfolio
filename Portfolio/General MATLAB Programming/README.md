@@ -20,6 +20,7 @@ FILES
 Disclaimer:  These files were done for a course that was taken.  Some files may be poorly commented, not completely working. or could made much more robust and user friendly.  This is due to either time constraints or simply lack of knowledge of the subject at time of creation.  At some point I may go back and fix up everything, but for now this is here to provide an idea of thought process and an idea of general ability in this subject matter.
 
 * **Pictures (Folder)**
+* **All Programs** 
 	* **change.m** -
 	* **quadraticEq.m** -
 	* **alphaComp.m** -
