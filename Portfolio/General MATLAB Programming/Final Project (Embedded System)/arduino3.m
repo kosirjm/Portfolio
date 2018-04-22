@@ -17,7 +17,7 @@ function [] = arduino3()
     % sound
     
 %% Hardware information
-port = 'com3';
+port = 'com5';
 board = 'Uno';
 
 %%% PORTS
@@ -46,7 +46,7 @@ senseMode = 1;
 buttonTime = 0;
 freq = 5000;
 delay = 1/freq;
-threshhold =  .05;
+threshhold =  .15;
 %%Plot Dimension
 interval = 5;
 
@@ -59,7 +59,7 @@ senseMode = menuFrame
 setpref('Internet', 'SMTP_Server',   'smtp.mail.yahoo.com');
 setpref('Internet','E_mail','jmkosir@sbcglobal.net');
 setpref('Internet', 'SMTP_Username', 'jmkosir@sbcglobal.net');
-setpref('Internet', 'SMTP_Password', 'J32yahooK44');
+setpref('Internet', 'SMTP_Password', '');
 
 props = java.lang.System.getProperties;
 props.setProperty('mail.smtp.auth',                'true');  % Note: 'true' as a string, not a logical value!

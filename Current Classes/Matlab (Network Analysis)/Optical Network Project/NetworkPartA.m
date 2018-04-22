@@ -7,8 +7,9 @@
 % Variables
 w = 10; % Wave length
 speed = 1000; % Speed up sim
-nodes = 10; 
+nodes = 10;
 connections = nodes - 1;
+
 connectionData(1:w,connections) = 0; % If in use
 depatureTime(connections,w) = 0; % Depature Time
 blocked = 0; % Number blocked
@@ -20,10 +21,11 @@ mu = 1 * speed;
 processTime = 1/mu;
 y = rand();
 allMatrix = 0;
-arrival = -log(1-y)/lambda;
+
 endLoop = 0;
 itterations = 8;
 %%
+arrival = -log(1-y)/lambda;
 for a=1:itterations
     % Process all Packtes until out of network
     while packetsProcessed <= packetSim
