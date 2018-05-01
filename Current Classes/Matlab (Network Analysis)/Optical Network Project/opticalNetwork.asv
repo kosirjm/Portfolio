@@ -1,0 +1,35 @@
+%{
+This is our main program to anylise our different optical networks
+
+
+
+%}
+clear all;
+
+% Variable definitions for simulations
+speed = 1000;        % Speed increase for simulation
+nodes = 10;          % Number of nodes
+mu = 1 * speed;      % Processing Speed
+lambda = 5 * speed;  % Arrival Speed
+numPackets = 800;    % Number of packets to process
+aveNum = 8;          % Number of times to run sim for average
+w = 10;              % Number of wavelnegths
+
+% Simulation
+for k = 1:w
+    opticalAllBlocking(k) = opticalNodes(numPackets, lambda, mu, nodes, k, aveNum, 0);
+    opticalBlocking(k) = opticalNodes(numPackets, lambda, mu, nodes, k, aveNum, 1);
+    conversionBlocking(k) = wavelengthConversion(numPackets, lambda, mu, aveNum, nodes, k);
+end
+
+% Plot the thre
+h1 = plot(opticalAllBlocking(1:w)/numPackets, 'color', 'red');
+hold on;
+h2 = plot(opticalBlocking(1:w)/numPackets, 'color', 'blue');
+h3 = plot(conversionBlocking(1:w)/numPackets, 'color', 'green');
+h4 = plot(theoProb(1:w), 'color', 'cyan');
+set([h1 h2 h3 h4], 'LineWidth',2);
+hold off;
+ylabel('Blocking Average');
+xlabel('Wavelength Number');
+title('Blocking Probability vs Wavelengths In Different Types Of Optical Networks')
