@@ -1,6 +1,11 @@
-function I = solarFlux(time, yearDay, latitude, longitude, LTSM)
-%SOLARFLUX Summary of this function goes here
-%   Detailed explanation goes here
+function k = solarFlux(time, yearDay, latitude, longitude, LTSM)
+% Calculates the solar flux for a given time of day
+
+% time - The hour of day to be calculated
+% yearDay - The number of the day of the year IE March 20th = 79
+% latitude - The latitude of the location
+% longitude - The longitude of the location
+% LTSM      - The difference in time from Greenwhich
 
 % Vernal Equinox
 % March 20th
@@ -8,50 +13,51 @@ function I = solarFlux(time, yearDay, latitude, longitude, LTSM)
 % Gamma = 0 ( Solar Panel Orentation)
 % 39.5070° N, 84.7452° W Latitude Longitude
 
-% needed variables
-I = [0 0];
-n = yearDay;
-A = [376 1230];
+% Zenith Angle - Angle of the sun if looking at it from the ground (ground
+% angle 90 degrees at solar noon 0 at sunrise and sunsetchighest altitude at 90
+% degrees.  Altitutde depends on summer and winter solstice
+
+% Azimuth Angle - North to south orientation ( distance from true south)
+% at solar noon the angle is 0 degrees to the left (east) the value is zero to the
+% right (west) it is positive
+
+% Solar Panel Orientation gamma  = 0
+% beta = 54;
+
+% Needed variables
+long = longitude;
+l  = latitude;
+
+% Given coeffecience
+A = [376 1230];   
 B = .156;
-C = .071;
-v = 54;  % beta 
-pg = .2; % ground reflectivity
-a = latitude;
-l  = longitude;
-sigma = 0;
 
 % Declination
-d = 23.45*sin(360 * ((284 + n)/365));
+% d = 23.45*sind(360 * ((284 + n)/365)) This is how I originally calculated
+% declination.  According to Dr. Niskode its 0 therefor thats what we will
+% use
+d = 0;
 
-% Earth Orbit correction  *********************************
-Btime = (yearDay - 81)*(360/365);
-E = 9.87*sin(2*Btime)-7.53*cos(Btime)-1.5*sin(Btime);
-
-% solar time calculations
-LTSM = (15*LTSM);
-TC = 4*(longitude-LTSM) + E;
-LST = time+TC/60;
+% Solar time calculations 
+LST = time-(.04*((15*LTSM)-long));
+beta  = 54;
 
 % Hour Angle
-h = 15 * (LST - 12);
+h = (time * 15)-180;
 
-% zenith angle
-theta = acos((cos(l)*cos(h)*cos(d)+sin(l)*sin(d)));
+% Solar Altitude
+solarAlt= asind((cosd(l)*cosd(h)*cosd(d))+(sind(l)*sind(d)));
 
-% Beta
-beta = asin((cos(l)*cos(h)*cos(d)+sin(l)*sin(d))); 
+% Azimuth
+azimuth = asind(((1/cosd(beta))*((cosd(d)*sind(h)))));
+
+% Incident Angle
+incAngle= acosd((sind(solarAlt)*cosd(beta))+(cosd(solarAlt)*sind(beta)...
+    * cosd(-azimuth)))
 
 % Direct Normal sunlight
-Idn =  A*exp(-B/sin(beta));
+Idn =  A/exp(B/sind(solarAlt));
 
-% Diffuse Solar Flux
-IdH = C * Idn;
-
-% Direct Normal with incedence of 54
-ID = Idn *cos(54)
-
-% total
-I = IdH + ID;
-
+k = [time beta h solarAlt azimuth incAngle Idn];
 end
 

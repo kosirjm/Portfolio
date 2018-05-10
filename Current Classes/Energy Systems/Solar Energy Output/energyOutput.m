@@ -1,3 +1,11 @@
+% This is our main script which uses the fucntion solarFlux to calculate
+% and plot the solar flux through out an entire given day.  After the flux
+% is calcuated the energy output for a solar panel is calculated and
+% plotted as well.  All this info is also written to an xls file.
+
+% March 5, 2018
+% ECE 291
+%--------------------------------------------------------------------------
 clear all;
 
 % Needed Variables
@@ -5,32 +13,51 @@ yearDay = 59 + 20;
 longitude = 84.745;
 latitude = 39.507;
 LSTM = 5;
-v = 54;
-A = 1.6;
-r = .156;
-pr = .2;
-solarHourFlux = [0 0];
 
-% loop through for every hour from sunrise to sunset
-for (i = 7:17)
+% Values for solar panel
+A = 1.67;   % Area
+r = .96;    % Effeciency ratio
+pr = .1408; % Loss
+
+solarHourFlux = [0 0 0 0 0 0 0 0];
+
+% Loop through for every hour in the day
+for (i = 6:18)
     solarHourFlux = vertcat(solarHourFlux, solarFlux(i, yearDay, latitude, longitude, LSTM));
-    
 end
 
-% remove first value which was used as a place holder
+% Remove first value which was used as a place holder
 solarHourFlux(1,:) = [];
 
 % Calculate solar panels output
-outputEnergy = solarHourFlux(:,2) .* A * r * pr;
+outputEnergy = solarHourFlux(:,8) .* A * r * pr;
 
-% Plot Solar flux in 
-plot(7:17,solarHourFlux(:,1));
+% Plot Solar flux in BTUH/FT^2
+figure(1);
+plot(6:18,solarHourFlux(:,7));
+title('Solar Flux Throughout The Day');
 hold on;
-plot(7:17,solarHourFlux(:,2));
 
-% Plot output of solar panel each our
+% Plot on same graph solar flux in W/m^2
+plot(6:18,solarHourFlux(:,8));
+legend('BTUH/FT^2', 'W/m^2');
+xlabel('Hours on 24 hour scale');
+
+% Plot output of solar panel each hour
 figure(2)
-plot(7:17, outputEnergy);
+plot(6:18, outputEnergy);
+title('Energy Output Of Solar Panel');
+xlabel('Hours on 24 hour scale');
+ylabel('Watts');
 
-% total energy output of solar panel
+% Total energy output of solar panel (Just in case we need this data)
 dayTotal = sum(outputEnergy)
+sum(solarHourFlux(:,8))
+% Output to a xls document (Preparing for table)
+C = {'Time', 'Beta', 'Hour Angle', 'Solar Altitude', 'Azimuth',...
+    'Incident Angle', 'Flux (BTUH/Ft^2)',...
+    'Flux(W/m^2)', 'Output Energy (Watts)'};
+putIn = [solarHourFlux(:,:), outputEnergy(:)];
+C = [C;num2cell(putIn)];
+
+xlswrite('Solar_Energy_Data',C);
