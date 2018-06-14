@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2602ecb0-1fcc-4de8-ae0e-94a6670c69ac" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/enemy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Current Classes/Energy Systems/Solar Energy Output/energyOutput.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Current Classes/Energy Systems/Solar Energy Output/energyOutput.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Current Classes/Energy Systems/Solar Energy Output/solarFlux.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Current Classes/Energy Systems/Solar Energy Output/solarFlux.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Current Classes/Matlab (Digital Signal Processing)/101 Stage Moving Average Filter/101StageFilter.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Current Classes/Matlab (Digital Signal Processing)/101 Stage Moving Average Filter/101StageFilter.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Current Classes/Matlab (Digital Signal Processing)/12 Stage Moving Filter/StageFilter12.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Current Classes/Matlab (Digital Signal Processing)/12 Stage Moving Filter/StageFilter12.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Current Classes/Matlab (Digital Signal Processing)/Band Stop Filter/bandStop-1.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Current Classes/Matlab (Digital Signal Processing)/Band Stop Filter/bandStop-1.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Current Classes/Matlab (Digital Signal Processing)/Band Stop Filter/filtered.wav" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Current Classes/Matlab (Digital Signal Processing)/Band Stop Filter/filtered.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Current Classes/Matlab (Digital Signal Processing)/Cross Correlation/crossCorrelation.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Current Classes/Matlab (Digital Signal Processing)/Cross Correlation/crossCorrelation.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Current Classes/Matlab (Digital Signal Processing)/Homework 12/bandpass.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Current Classes/Matlab (Digital Signal Processing)/Homework 12/bandpass.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Current Classes/Matlab (Digital Signal Processing)/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Current Classes/Matlab (Digital Signal Processing)/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Current Classes/Matlab (Network Analysis)/MMCK Project/MM2.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Current Classes/Matlab (Network Analysis)/MMCK Project/MM2.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Current Classes/Matlab (Network Analysis)/MMCK Project/displayData.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Current Classes/Matlab (Network Analysis)/MMCK Project/displayData.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Current Classes/Matlab (Network Analysis)/MMCK Project/theoreticalMM2.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Current Classes/Matlab (Network Analysis)/MMCK Project/theoreticalMM2.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Current Classes/Matlab (Network Analysis)/Optical Network Project/opticalNetwork.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Current Classes/Matlab (Network Analysis)/Optical Network Project/opticalNetwork.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Current Classes/Matlab (Network Analysis)/Optical Network Project/opticalNetworkSim.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Current Classes/Matlab (Network Analysis)/Optical Network Project/opticalNetworkSim.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Current Classes/Matlab (Network Analysis)/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Current Classes/Matlab (Network Analysis)/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Assembly/Programs/add2.asm" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Assembly/Programs/add2.asm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Assembly/Programs/atoi1.asm" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Assembly/Programs/atoi1.asm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Assembly/Programs/greaterThan.asm" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Assembly/Programs/greaterThan.asm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Assembly/Programs/helloworld.asm" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Assembly/Programs/helloworld.asm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Assembly/Programs/multiples.asm" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Assembly/Programs/multiples.asm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Assembly/Programs/palindrome.asm" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Assembly/Programs/palindrome.asm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Assembly/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Assembly/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/C++/BST/BST.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/C++/BST/BST.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/C++/BST/BST.ipp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/C++/BST/BST.ipp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/C++/BST/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/C++/BST/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/C++/BST/SSet.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/C++/BST/SSet.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/C++/BST/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/C++/BST/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/C++/Graph/Graph.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/C++/Graph/Graph.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/C++/Graph/Graph.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/C++/Graph/Graph.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/C++/Graph/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/C++/Graph/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/C++/Graph/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/C++/Graph/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/C++/Hashing/HashTable.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/C++/Hashing/HashTable.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/C++/Hashing/HashTable.ipp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/C++/Hashing/HashTable.ipp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/C++/Hashing/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/C++/Hashing/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/C++/Hashing/USet.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/C++/Hashing/USet.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/C++/Hashing/hashPrimes.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/C++/Hashing/hashPrimes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/C++/Hashing/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/C++/Hashing/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/C++/Heap/Heap.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/C++/Heap/Heap.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/C++/Heap/Heap.ipp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/C++/Heap/Heap.ipp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/C++/Heap/Queue.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/C++/Heap/Queue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/C++/Heap/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/C++/Heap/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/C++/Heap/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/C++/Heap/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/C++/Linked List/LinkedList.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/C++/Linked List/LinkedList.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/C++/Linked List/LinkedList.ipp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/C++/Linked List/LinkedList.ipp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/C++/Linked List/List.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/C++/Linked List/List.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/C++/Linked List/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/C++/Linked List/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/C++/Linked List/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/C++/Linked List/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/C++/Queue/ArrayQueue.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/C++/Queue/ArrayQueue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/C++/Queue/ArrayQueue.ipp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/C++/Queue/ArrayQueue.ipp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/C++/Queue/Queue.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/C++/Queue/Queue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/C++/Queue/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/C++/Queue/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/C++/Queue/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/C++/Queue/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/C++/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/C++/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Computer Architecture (C C++)/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Computer Architecture (C C++)/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/Change.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/Change.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/QuadraticEq.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/QuadraticEq.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/alphaComp.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/alphaComp.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/beam.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/beam.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/binaryToInt.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/binaryToInt.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/biorhythm.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/biorhythm.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/bookVoltage.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/bookVoltage.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/cosTaylor.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/cosTaylor.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/distortion.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/distortion.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/edgeDetect.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/edgeDetect.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/eulor.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/eulor.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/fibonacci.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/fibonacci.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/foruierProgram.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/foruierProgram.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/fourierHW.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/fourierHW.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/fractal.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/fractal.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/imgTrans.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/imgTrans.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/interestCalculator.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/interestCalculator.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/lengendreScript.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/lengendreScript.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/mandelbrot.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/mandelbrot.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/massEquation.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/massEquation.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/newquot.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/newquot.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/newtonQuotient.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/newtonQuotient.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/p.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/p.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/palindrome.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/palindrome.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/popCalculator.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/popCalculator.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/popGrowth.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/popGrowth.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/probQuestion.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/probQuestion.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/removeMax.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/removeMax.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/salary.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/salary.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/simpsons.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/simpsons.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/spiral.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/spiral.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/test.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/test.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/test2Prob1.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/test2Prob1.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/timeCalculator.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/timeCalculator.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/transLimit.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/transLimit.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/trap.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/trap.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/trapF.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/trapF.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/van.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/van.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/vanDP.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/vanDP.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/voltageProb.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/All Programs/voltageProb.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/Demo Programs/alphabetCount.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/Demo Programs/alphabetCount.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/Demo Programs/circleProb.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/Demo Programs/circleProb.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/Demo Programs/contrast.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/Demo Programs/contrast.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/Demo Programs/histogramPic.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/Demo Programs/histogramPic.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/Demo Programs/primeFact.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/Demo Programs/primeFact.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/Demo Programs/raddecay.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/Demo Programs/raddecay.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/Final Project (Embedded System)/arduino3.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/Final Project (Embedded System)/arduino3.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/General MATLAB Programming/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Infared Heartbeat Monitor/Code/HeartBeatMonitor.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Infared Heartbeat Monitor/Code/HeartBeatMonitor.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Infared Heartbeat Monitor/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Infared Heartbeat Monitor/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Boggle Game/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Boggle Game/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Boggle Game/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Boggle Game/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Boggle Game/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Boggle Game/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Boggle Game/brit-a-z.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Boggle Game/brit-a-z.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Boggle Game/src/Boggle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Boggle Game/src/Boggle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Boggle Game/src/Die.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Boggle Game/src/Die.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Boggle Game/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Boggle Game/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Boggle Game/src/Space.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Boggle Game/src/Space.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Calculator/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Calculator/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Calculator/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Calculator/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Calculator/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Calculator/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Calculator/src/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Calculator/src/calculator/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Comparable Interface &amp; Encapsulation Testing/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Comparable Interface &amp; Encapsulation Testing/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Comparable Interface &amp; Encapsulation Testing/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Comparable Interface &amp; Encapsulation Testing/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Comparable Interface &amp; Encapsulation Testing/src/classes_to_test/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Comparable Interface &amp; Encapsulation Testing/src/classes_to_test/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Comparable Interface &amp; Encapsulation Testing/src/classes_to_test/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Comparable Interface &amp; Encapsulation Testing/src/classes_to_test/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Comparable Interface &amp; Encapsulation Testing/src/classes_to_test/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Comparable Interface &amp; Encapsulation Testing/src/classes_to_test/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Comparable Interface &amp; Encapsulation Testing/src/classes_to_test/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Comparable Interface &amp; Encapsulation Testing/src/classes_to_test/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Comparable Interface &amp; Encapsulation Testing/src/classes_to_test/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Comparable Interface &amp; Encapsulation Testing/src/classes_to_test/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Comparable Interface &amp; Encapsulation Testing/tests/BookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Comparable Interface &amp; Encapsulation Testing/tests/BookTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Comparable Interface &amp; Encapsulation Testing/tests/ShapeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Comparable Interface &amp; Encapsulation Testing/tests/ShapeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Network Layer Device/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Network Layer Device/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Network Layer Device/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Network Layer Device/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Network Layer Device/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Network Layer Device/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Network Layer Device/src/edu/miamioh/cse283/lab6/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Network Layer Device/src/edu/miamioh/cse283/lab6/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Network Layer Device/src/edu/miamioh/cse283/lab6/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Network Layer Device/src/edu/miamioh/cse283/lab6/Link.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Network Layer Device/src/edu/miamioh/cse283/lab6/Packet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Network Layer Device/src/edu/miamioh/cse283/lab6/Packet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Network Layer Device/src/edu/miamioh/cse283/lab6/SoftwareNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Network Layer Device/src/edu/miamioh/cse283/lab6/SoftwareNetwork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Network Layer Device/src/edu/miamioh/cse283/lab6/SoftwareRouter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Network Layer Device/src/edu/miamioh/cse283/lab6/SoftwareRouter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Polymorphism &amp; Inheritance/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Polymorphism &amp; Inheritance/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Polymorphism &amp; Inheritance/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Polymorphism &amp; Inheritance/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Polymorphism &amp; Inheritance/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Polymorphism &amp; Inheritance/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Polymorphism &amp; Inheritance/src/manager/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Polymorphism &amp; Inheritance/src/manager/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Polymorphism &amp; Inheritance/src/zoo/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Polymorphism &amp; Inheritance/src/zoo/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Polymorphism &amp; Inheritance/src/zoo/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Polymorphism &amp; Inheritance/src/zoo/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Polymorphism &amp; Inheritance/src/zoo/Enclosure.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Polymorphism &amp; Inheritance/src/zoo/Enclosure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Polymorphism &amp; Inheritance/src/zoo/Exhibit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Polymorphism &amp; Inheritance/src/zoo/Exhibit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Polymorphism &amp; Inheritance/src/zoo/Gibbon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Polymorphism &amp; Inheritance/src/zoo/Gibbon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Polymorphism &amp; Inheritance/src/zoo/Jaguar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Polymorphism &amp; Inheritance/src/zoo/Jaguar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Polymorphism &amp; Inheritance/src/zoo/Lizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Polymorphism &amp; Inheritance/src/zoo/Lizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Polymorphism &amp; Inheritance/src/zoo/Monkey.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Polymorphism &amp; Inheritance/src/zoo/Monkey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Polymorphism &amp; Inheritance/src/zoo/Ocelot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Polymorphism &amp; Inheritance/src/zoo/Ocelot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Polymorphism &amp; Inheritance/src/zoo/Reptile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Polymorphism &amp; Inheritance/src/zoo/Reptile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Polymorphism &amp; Inheritance/src/zoo/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Polymorphism &amp; Inheritance/src/zoo/Snake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Polymorphism &amp; Inheritance/src/zoo/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Polymorphism &amp; Inheritance/src/zoo/Zoo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Polymorphism &amp; Inheritance/zoo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Polymorphism &amp; Inheritance/zoo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/TCP-Based Client and Server/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/TCP-Based Client and Server/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/TCP-Based Client and Server/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/TCP-Based Client and Server/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Unreliable UDP/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Unreliable UDP/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Unreliable UDP/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Unreliable UDP/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Unreliable UDP/src/edu/miamioh/cse283/lab2/Lab2Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Unreliable UDP/src/edu/miamioh/cse283/lab2/Lab2Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Unreliable UDP/src/edu/miamioh/cse283/lab2/Lab2Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Unreliable UDP/src/edu/miamioh/cse283/lab2/Lab2Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Unreliable UDP/src/edu/miamioh/cse283/lab2/dataParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Demo Programs/Unreliable UDP/src/edu/miamioh/cse283/lab2/dataParameters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Array Vs ArrayList/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Array Vs ArrayList/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Array Vs ArrayList/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Array Vs ArrayList/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Array Vs ArrayList/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Array Vs ArrayList/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Array Vs ArrayList/src/part_a/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Array Vs ArrayList/src/part_a/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Array Vs ArrayList/src/part_a/CityCompareByName.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Array Vs ArrayList/src/part_a/CityCompareByName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Array Vs ArrayList/src/part_a/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Array Vs ArrayList/src/part_a/Tester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Array Vs ArrayList/src/part_b/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Array Vs ArrayList/src/part_b/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Array Vs ArrayList/src/part_b/CityCompareByName.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Array Vs ArrayList/src/part_b/CityCompareByName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Array Vs ArrayList/src/part_b/TestCityArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Array Vs ArrayList/src/part_b/TestCityArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Array Vs ArrayList/src/part_b/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Array Vs ArrayList/src/part_b/Tester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Casting/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Casting/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Casting/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Casting/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Casting/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Casting/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Casting/src/equals/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Casting/src/equals/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Casting/src/equals/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Casting/src/equals/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Casting/src/equals/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Casting/src/equals/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Casting/src/equals/PetTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Casting/src/equals/PetTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Hello Network World/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Hello Network World/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Hello Network World/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Hello Network World/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Hello Network World/.settings/org.eclipse.ltk.core.refactoring.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Hello Network World/.settings/org.eclipse.ltk.core.refactoring.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Hello Network World/src/edu/miamioh/cse283/lab1/Lab1Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Hello Network World/src/edu/miamioh/cse283/lab1/Lab1Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Insertion &amp; Selection Sort/Lab10.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Insertion &amp; Selection Sort/Lab10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Polymorphism &amp; Encapsulation/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Polymorphism &amp; Encapsulation/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Polymorphism &amp; Encapsulation/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Polymorphism &amp; Encapsulation/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Polymorphism &amp; Encapsulation/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Polymorphism &amp; Encapsulation/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Polymorphism &amp; Encapsulation/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Polymorphism &amp; Encapsulation/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Polymorphism &amp; Encapsulation/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Polymorphism &amp; Encapsulation/Tester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Polymorphism &amp; Encapsulation/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Polymorphism &amp; Encapsulation/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Recursion/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Recursion/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Recursion/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Recursion/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Recursion/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Recursion/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Recursion/src/Recursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/Recursion/src/Recursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/boardGame/BadPropertyCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/boardGame/BadPropertyCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/boardGame/BoardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/boardGame/BoardGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/boardGame/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/boardGame/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/boardGame/GoodBadSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/boardGame/GoodBadSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/boardGame/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/boardGame/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/boardGame/LoginGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/boardGame/LoginGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/boardGame/MainGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/boardGame/MainGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/boardGame/MoneyCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/boardGame/MoneyCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/boardGame/NameLoginGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/boardGame/NameLoginGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/boardGame/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/boardGame/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/boardGame/PositionCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/boardGame/PositionCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/boardGame/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/boardGame/Property.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/boardGame/PropertyCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/boardGame/PropertyCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/boardGame/ReturnSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/boardGame/ReturnSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/boardGame/Space.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/boardGame/Space.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/boardGame/SpaceCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/boardGame/SpaceCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/boardGame/SystemRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/Other Programs/boardGame/SystemRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Java/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Java/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/JonKosirResume.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Music Box/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Music Box/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/NXC/Code/NXC.nxc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/NXC/Code/NXC.nxc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/NXC/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/NXC/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/PAKO/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/PAKO/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/PCB Senior Design/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/PCB Senior Design/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Supply Chain Optimization Senior Design/Code/SwiftJsonLoginPHP/jsonlogin.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Supply Chain Optimization Senior Design/Code/SwiftJsonLoginPHP/jsonlogin.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Supply Chain Optimization Senior Design/Code/SwiftJsonLoginPHP/jsonlogin2.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Supply Chain Optimization Senior Design/Code/SwiftJsonLoginPHP/jsonlogin2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Supply Chain Optimization Senior Design/Code/SwiftJsonLoginPHP/jsonsignup.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Supply Chain Optimization Senior Design/Code/SwiftJsonLoginPHP/jsonsignup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Supply Chain Optimization Senior Design/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Supply Chain Optimization Senior Design/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/Finished.fit.rpt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/Finished.fit.rpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/Finished.fit.summary" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/Finished.fit.summary" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/Finished.flow.rpt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/Finished.flow.rpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/Finished.map.rpt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/Finished.map.rpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/Finished.map.smsg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/Finished.map.smsg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/Finished.map.summary" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/Finished.map.summary" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/Finished.pin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/Finished.pin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/Finished.qpf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/Finished.qpf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/Finished.qsf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/Finished.qsf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/Finished.qsf.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/Finished.qsf.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/Finished.qws" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/Finished.qws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/Finished.tan.rpt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/Finished.tan.rpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/Finished.tan.summary" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/Finished.tan.summary" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/VGA_Audio_PLL.v" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/VGA_Audio_PLL.v" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/char_rom.v" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/char_rom.v" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/chars.mif" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/chars.mif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/chars.v" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/chars.v" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/debounce.v" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/debounce.v" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/keyboard.v" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/keyboard.v" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/keyboard.v.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/keyboard.v.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/oneshot.v" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/oneshot.v" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/parity_bit_check.v" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/parity_bit_check.v" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/receiver.v" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/receiver.v" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/reset_delay.v" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/reset_delay.v" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/seg7.v" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/seg7.v" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/sender.v" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/sender.v" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/student_prototype.v" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/student_prototype.v" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/student_prototype.v.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/student_prototype.v.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/sysfont.mif" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/sysfont.mif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/sysfont.v" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/sysfont.v" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/textbox.v" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/textbox.v" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/textbox.v.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/textbox.v.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/vga_sync.v" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Verilog/Code/vga_sync.v" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Portfolio/Verilog/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Portfolio/Verilog/README.md" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="enemy.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/enemy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="game.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classes/game.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="699">
+              <caret line="133" column="26" selection-start-line="133" selection-start-column="26" selection-end-line="133" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/attack.py" />
+        <option value="$PROJECT_DIR$/classes.py" />
+        <option value="$PROJECT_DIR$/classes/__init__.py" />
+        <option value="$PROJECT_DIR$/classes/enemy.py" />
+        <option value="$PROJECT_DIR$/classes/game.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="927" />
+    <option name="height" value="1055" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="RPGBattle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RPGBattle" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2602ecb0-1fcc-4de8-ae0e-94a6670c69ac" name="Default" comment="" />
+      <created>1528290781417</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528290781417</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="927" height="1055" extended-state="4" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24595469" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="R Packages" order="3" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/classes/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/enemy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2055">
+          <caret line="139" column="101" selection-start-line="139" selection-start-column="101" selection-end-line="139" selection-end-column="101" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes.py" />
+    <entry file="file://$PROJECT_DIR$/attack.py" />
+    <entry file="file://$PROJECT_DIR$/classes/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/enemy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="699">
+          <caret line="133" column="26" selection-start-line="133" selection-start-column="26" selection-end-line="133" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
